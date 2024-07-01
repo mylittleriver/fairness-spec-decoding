@@ -37,7 +37,7 @@ if __name__ == '__main__':
     def generate_text(input_text, max_new_tokens):
         model_inputs = tokenizer([input_text], return_tensors="pt").to(device)
         input_ids = tokenizer.encode(input_text, return_tensors="pt")
-        attention_mask = torch.ones(input_ids.shape,dtype=torch.long,device=device)
+        attention_mask = model_inputs.input_ids
         outputs = model.generate(
             model_inputs.input_ids, 
             attention_mask = attention_mask,
