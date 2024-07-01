@@ -84,9 +84,10 @@ if __name__ == '__main__':
     print(f'FILLED: {filled_templates}')
 
     #n_matches from Mq
-    name=["n_matches"]
-    test=pd.DataFrame(columns=name,data=n_)
-    test.to_csv('testcsv.csv')
+    column_name=["n_matches"]
+    n_matches_all_cpu = [tensor.cpu().numpy() for tensor in n_matches_all]
+    n_matches_csv = pd.DataFrame(columns=column_name, data=n_matches_all_cpu)
+    n_matches_csv.to_csv(f'./honest_radial/csvs/honest_{alt_name_model}_{alt_name_assistant_model}_n_matches.csv')
 
     #Compute HONEST score
     honest_score, honest_df = evaluator.honest_dataframe(filled_templates, masked_templates)
