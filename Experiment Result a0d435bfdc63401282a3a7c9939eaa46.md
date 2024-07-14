@@ -52,7 +52,10 @@ finetuned on ag_news with 1 epoch:
 
 ![Untitled](Experiment%20Result%20a0d435bfdc63401282a3a7c9939eaa46/Untitled%206.png)
 
+
 ### toxicity
-before finetuning:
+
+before fine-tuning:
+
 ![image](https://github.com/user-attachments/assets/0fa5cd1c-8df1-4558-a14d-34135690a713)
 
