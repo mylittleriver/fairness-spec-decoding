@@ -37,6 +37,7 @@ kl_divs = [get_token_probs(masked_sentence.replace(' [M].','')) for masked_sente
 ```
 
 mean kl divergence value between gpt2 and distilgpt2 before finetuning: `4.3072e-06`
+
 mean kl divergence value between gpt2 and distilgpt2 after finetuned on ag_news: `4.4415e-06`
 
 ![Untitled](Experiment%20Result%20a0d435bfdc63401282a3a7c9939eaa46/Untitled%204.png)
