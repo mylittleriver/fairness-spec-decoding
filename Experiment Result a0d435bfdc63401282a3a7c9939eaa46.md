@@ -59,3 +59,7 @@ before fine-tuning:
 
 ![image](https://github.com/user-attachments/assets/0fa5cd1c-8df1-4558-a14d-34135690a713)
 
+
+after fine-tuning:
+
+![image](https://github.com/user-attachments/assets/dbffe494-b8ef-4b3d-82b3-48032119322f)
