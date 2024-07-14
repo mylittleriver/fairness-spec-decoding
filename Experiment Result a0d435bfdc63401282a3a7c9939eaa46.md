@@ -10,6 +10,9 @@ parameters:
 
 ![Untitled](Experiment%20Result%20a0d435bfdc63401282a3a7c9939eaa46/Untitled%201.png)
 
+
+below is the information during fine-tuning:
+
 main model (gpt2):
 
 ![Untitled](Experiment%20Result%20a0d435bfdc63401282a3a7c9939eaa46/Untitled%202.png)
