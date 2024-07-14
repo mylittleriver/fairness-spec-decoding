@@ -36,6 +36,7 @@ def get_token_probs(text):
 kl_divs = [get_token_probs(masked_sentence.replace(' [M].','')) for masked_sentence in tqdm(masked_templates.keys())]
 ```
 
+
 mean kl divergence value between gpt2 and distilgpt2 before finetuning: `4.3072e-06`
 
 mean kl divergence value between gpt2 and distilgpt2 after finetuned on ag_news: `4.4415e-06`
