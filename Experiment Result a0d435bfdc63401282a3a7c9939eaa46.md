@@ -185,8 +185,8 @@ In the following example, I computed the likelihood difference for all tokens (a
  This is computed using the following code:
    
    
-   	```python
-	l=len(ac_list)
+   	
+	l=len(ac_list) # in the above example, ac_list = [True, True,True,True,True,True,True,False,False,False,False,False,True, True,True,True,True,True,True,False,True,True]
 	diff_list=[]
 	rej_diff_list=[]
 	for i in range(l):
