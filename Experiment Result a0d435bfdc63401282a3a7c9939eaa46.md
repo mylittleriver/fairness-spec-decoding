@@ -6,11 +6,27 @@ The experiment is conducted using main model: gpt2, assistant model: distilgpt2
 1. Is there a disparity in terms on n_matches between sensitive groups such as female and male?
 - **Yes, before finetuning we notice a disparity. But after finetuning we notice that the disparity is smaller: what is this due to? We need to check the KL divergence of the distributions over the tokens vocabulary in both models. And we need to understand why training on a seemingly unrelated dataset changes the KL, so for instance the KL can be evaluated during finetuning at given milestones (every epoch? every training step?)**
 
+The disparity in terms of n_matches (or ratio of n_matches to max new tokens, which indicates the percentage of tokens coming from the assistant model) is shown below:
 
-For now, I have finetuned the models on the seemingly unrelated dataset ag_news for 1 epoch using the following parameters and evaluated the KL at epoch 1. Next I will evaluate the KL at 2, 3, ... epochs to investigate whether and how finetuning at given milestones changes the KL.
+without finetuning:
+
+![Untitled](Experiment%20Result%20a0d435bfdc63401282a3a7c9939eaa46/Untitled%205.png)
+
+finetuned on ag_news with 1 epoch:
+
+![Untitled](Experiment%20Result%20a0d435bfdc63401282a3a7c9939eaa46/Untitled%206.png)
 
 
-parameters:
+For now, I have finetuned both models on the seemingly unrelated dataset ag_news for 1 epoch using the following parameters and evaluated the KL at epoch 1. The KL seems to have not changed much at epoch 1. Next I will evaluate the KL at 2, 3, ... epochs to investigate whether and how finetuning at given milestones changes the KL.
+
+
+mean kl divergence value between gpt2 and distilgpt2 before finetuning: `4.3072e-06`
+
+mean kl divergence value between gpt2 and distilgpt2 after finetuned on ag_news at epoch 1: `4.4415e-06`
+
+![Untitled](Experiment%20Result%20a0d435bfdc63401282a3a7c9939eaa46/Untitled%204.png)
+
+fine-tuning parameters:
 
 ![Untitled](Experiment%20Result%20a0d435bfdc63401282a3a7c9939eaa46/Untitled.png)
 
@@ -46,21 +62,9 @@ kl_divs = [get_token_probs(masked_sentence.replace(' [M].','')) for masked_sente
 ```
 
 
-mean kl divergence value between gpt2 and distilgpt2 before finetuning: `4.3072e-06`
 
-mean kl divergence value between gpt2 and distilgpt2 after finetuned on ag_news: `4.4415e-06`
 
-![Untitled](Experiment%20Result%20a0d435bfdc63401282a3a7c9939eaa46/Untitled%204.png)
 
-### percentage of tokens coming from the assistant model
-
-without finetuning:
-
-![Untitled](Experiment%20Result%20a0d435bfdc63401282a3a7c9939eaa46/Untitled%205.png)
-
-finetuned on ag_news with 1 epoch:
-
-![Untitled](Experiment%20Result%20a0d435bfdc63401282a3a7c9939eaa46/Untitled%206.png)
 
 
 ### toxicity
