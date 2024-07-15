@@ -1,5 +1,10 @@
 # Experiment Result
 
+##Question
+1. Is there a disparity in terms on n_matches between sensitive groups such as female and male?
+##- Yes, before finetuning we notice a disparity. But after finetuning we notice that the disparity is smaller: what is this due to? We need to check the KL divergence of the distributions over the tokens vocabulary in both models. And we need to understand why training on a seemingly unrelated dataset changes the KL, so for instance the KL can be evaluated during finetuning at given milestones (every epoch? every training step?)**
+
+- 
 main model: gpt2, assistant model: distilgpt2
 
 ### finetuning both models on ag_news:
