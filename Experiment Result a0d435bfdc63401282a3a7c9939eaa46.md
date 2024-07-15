@@ -189,7 +189,7 @@ The experiment is conducted using main model: gpt2, assistant model: distilgpt2
 		rej_diff_list.append(0)
 	print(diff_list)
 	print(rej_diff_list)
-    	```
+    	
     
     
 In the following example, I computed the likelihood difference for all tokens (accepted and rejected), and the likelihood difference for rejected tokens, stored in diff_list and rej_diff_list respectively.
