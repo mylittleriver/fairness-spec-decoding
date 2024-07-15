@@ -173,6 +173,22 @@ The experiment is conducted using main model: gpt2, assistant model: distilgpt2
 - compute the likelihood difference for the rejected completions, i.e. how much more likely are the rejected tokens in the smaller model compared to the same tokens in the larger model
 
 	- How does the likelihood of the rejected tokens change: does it get closer to the likelihood of the larger model or does it diverge more?
+   	What metric can I use to measure the change of the likelihood of the rejected tokens? Below is the code for computing the likelihood difference for the rejected tokens and I'm not sure if this is what we want
+   
+   	```python
+    	l=len(ac_list)
+	diff_list=[]
+	rej_diff_list=[]
+	for i in range(l):
+	    diff_list.append(p_list[i]-q_list[i])
+	    if(ac_list[i]==False):
+	        rej_diff_list.append(p_list[i]-q_list[i])
+	    else:
+	        rej_diff_list.append(0)
+    	```
+        
+print(diff_list)
+print(rej_diff_list)
 
 ## Question
 
