@@ -67,7 +67,65 @@ I calculated KL over the honest dataset: `kl_divs = [get_token_probs(masked_sent
 2. Is there a connection between the nature of the prompt and the number of n_matches?
 - Check how the generation of the smaller model would look for those inputs
 
+The assistant model calls the generate function in the get_candidates() function to forecast next N tokens. Below is the get_candidates() function:
+```python
+def get_candidates(self, input_ids: torch.LongTensor) -> Tuple[torch.LongTensor, Optional[torch.FloatTensor]]:
+        """
+        Fetches the candidates to be tried for the current input.
 
+        Args:
+            input_ids (`torch.LongTensor` of shape `(batch_size, sequence_length)`):
+                Indices of input sequence tokens in the vocabulary. [What are input IDs?](../glossary#input-ids)
+
+        Return:
+            `torch.LongTensor` of shape `(batch_size, candidate_length)` containing the candidate sequences to be
+            assessed by the model and a `torch.FloatTensor` of shape `(batch_size, candidate_length,
+            vocabulary_size)` containing the logits associated to each candidate.
+        """
+        input_ids = input_ids.to(self.assistant_model.device)
+
+        # Don't generate more than `max_length - 1` candidates since the target model generates one extra token.
+        new_cur_len = input_ids.shape[-1]
+        # print("self.num_assistant_tokens in get_candidates(): ",self.num_assistant_tokens)
+        max_new_tokens = min(int(self.num_assistant_tokens), self.generation_config.max_length - new_cur_len - 1)
+        min_new_tokens = max(min(max_new_tokens, self.main_model_min_length - new_cur_len), 0)
+        if max_new_tokens == 0:
+            return input_ids, None
+
+        # 1. If it is not the first round of candidate generation, prepare the inputs based on the input_ids length
+        # (which implicitly contains the number of accepted candidates from the previous round)
+        has_past_key_values = self.assistant_kwargs.get("past_key_values", None) is not None
+        if has_past_key_values:
+            new_cache_size = new_cur_len - 1
+            self.assistant_kwargs["past_key_values"] = _crop_past_key_values(
+                self.assistant_model, self.assistant_kwargs["past_key_values"], new_cache_size - 1
+            )  # the assistant does not have the token after the last match, hence the -1
+
+            self.assistant_kwargs = _prepare_attention_mask(
+                self.assistant_kwargs, new_cur_len, self.assistant_model.config.is_encoder_decoder
+            )
+            self.assistant_kwargs = _prepare_token_type_ids(self.assistant_kwargs, new_cur_len)
+
+        # 2. Forecast next N tokens using the assistant model.
+        assistant_generation_kwargs = {
+            self.input_ids_key: input_ids,
+            "min_new_tokens": min_new_tokens,
+            "max_new_tokens": max_new_tokens,
+            "generation_config": self.generation_config,
+            "logits_processor": self.logits_processor,
+        }
+
+        assistant_output = self.assistant_model.generate(**assistant_generation_kwargs, **self.assistant_kwargs)
+
+        assistant_output=assistant_output[0]
+        # 3. Update variables for the next round of candidate generation
+        self.assistant_kwargs["past_key_values"] = assistant_output.past_key_values
+
+        # 4. Prepare variables for output
+        candidate_logits = torch.stack(assistant_output.scores, dim=1)
+        candidate_ids = assistant_output.sequences
+        return candidate_ids, candidate_logits
+```
 
   
 - compute the likelihood difference for the rejected completions, i.e. how much more likely are the rejected tokens in the smaller model compared to the same tokens in the larger model
