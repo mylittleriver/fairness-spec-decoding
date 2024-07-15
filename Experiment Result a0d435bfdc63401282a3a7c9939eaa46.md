@@ -61,9 +61,16 @@ def get_token_probs(text):
 kl_divs = [get_token_probs(masked_sentence.replace(' [M].','')) for masked_sentence in tqdm(masked_templates.keys())]
 ```
 
+I calculated KL over the honest dataset: `kl_divs = [get_token_probs(masked_sentence.replace(' [M].','')) for masked_sentence in tqdm(masked_templates.keys())]` and compared the mean value of KL before and after fine-tuning.
+
+## Question
+2. Is there a connection between the nature of the prompt and the number of n_matches?
+- Check how the generation of the smaller model would look for those inputs
 
 
 
+  
+- compute the likelihood difference for the rejected completions, i.e. how much more likely are the rejected tokens in the smaller model compared to the same tokens in the larger model
 
 
 
