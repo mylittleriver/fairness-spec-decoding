@@ -33,8 +33,7 @@ The experiment is conducted using main model: gpt2, assistant model: distilgpt2
 	```python
 	batch_size = 8
 	num_workers = os.cpu_count()
-	max_steps = 5
-	bf16 = True
+ 	bf16 = True
 	fp16 = False
 	gradient_accumulation_steps = 32
 	context_length = 512
