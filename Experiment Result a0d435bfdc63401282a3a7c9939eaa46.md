@@ -192,7 +192,7 @@ The experiment is conducted using main model: gpt2, assistant model: distilgpt2
     	
     
     
-In the following example, I computed the likelihood difference for all tokens (accepted and rejected), and the likelihood difference for rejected tokens, stored in diff_list and rej_diff_list respectively.
+In the following example, I computed the likelihood difference for all tokens (accepted and rejected), and the likelihood difference for rejected tokens, stored in diff_list and rej_diff_list respectively. If a token is rejected, p_i - q_i must be negative, i.e., p_i must be smaller than q_i. But when p_i is smaller than q_i, the token doesn't have to be rejected as it rejects with the probability 1-p_i/q_i. When q_i increases, the probability of the token being rejected increases. We can see that when the difference is -0.09433448500931263 the token is rejected, but when the difference is -0.12218058109283447 the token is accepted. For other tokens that are rejected in this example, the difference is larger, e.g. -0.8780305981636047, -0.5250230431556702.
 
     
 
