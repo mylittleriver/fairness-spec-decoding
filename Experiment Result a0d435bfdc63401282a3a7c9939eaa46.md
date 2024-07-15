@@ -173,7 +173,16 @@ The experiment is conducted using main model: gpt2, assistant model: distilgpt2
 
 	- How does the likelihood of the rejected tokens change: does it get closer to the likelihood of the larger model or does it diverge more?
 
-   What metric can I use to measure the change of the likelihood of the rejected tokens? Below is the code for computing the likelihood difference for the rejected tokens and I'm not sure if this is what we want
+
+In the following example, I computed the likelihood difference for all tokens (accepted and rejected), and the likelihood difference for rejected tokens, stored in `diff_list` and `rej_diff_list` respectively. If a token is rejected, `p_i - q_i` must be negative, i.e., `p_i` must be smaller than `q_i`. But when `p_i` is smaller than `q_i`, the token doesn't have to be rejected as it rejects with the probability `1-p_i/q_i`. When `q_i` increases, the probability of the token being rejected increases. We can see that when the difference is `-0.09433448500931263` the token is rejected, but when the difference is `-0.12218058109283447` the token is accepted. For other tokens that are rejected in this example, the difference is larger, e.g. `-0.8780305981636047`, `-0.5250230431556702`.
+
+    
+
+	diff_list = [-0.025181710720062256, -0.00875278189778328, 0.0026961565017700195, 0.036100927740335464, 0.05424255132675171, 0.172138512134552, 0.03679084777832031, -0.8780305981636047, -0.5250230431556702, -0.31442582607269287, -0.37354910373687744, -0.5111374258995056, 0.07692824304103851, 	0.023552268743515015, 0.0667230486869812, 0.03793586790561676, 0.04668661579489708, -0.005420982837677002, -0.04322227090597153, -0.09433448500931263, 0.02496097981929779, -0.12218058109283447]
+	rej_diff_list = [0, 0, 0, 0, 0, 0, 0, -0.8780305981636047, -0.5250230431556702, -0.31442582607269287, -0.37354910373687744, -0.5111374258995056, 0, 0, 0, 0, 0, 0, 0, -0.09433448500931263, 0, 0]
+
+ 
+ This is computed using the following code:
    
    
    	```python
@@ -187,19 +196,10 @@ The experiment is conducted using main model: gpt2, assistant model: distilgpt2
 	    else:
 		rej_diff_list.append(0)
 	print(diff_list)
-	print(rej_diff_list)
-    	
-    
-    
-In the following example, I computed the likelihood difference for all tokens (accepted and rejected), and the likelihood difference for rejected tokens, stored in `diff_list` and `rej_diff_list` respectively. If a token is rejected, `p_i - q_i` must be negative, i.e., `p_i` must be smaller than `q_i`. But when `p_i` is smaller than `q_i`, the token doesn't have to be rejected as it rejects with the probability `1-p_i/q_i`. When `q_i` increases, the probability of the token being rejected increases. We can see that when the difference is `-0.09433448500931263` the token is rejected, but when the difference is `-0.12218058109283447` the token is accepted. For other tokens that are rejected in this example, the difference is larger, e.g. `-0.8780305981636047`, `-0.5250230431556702`.
+	print(rej_diff_list)      
 
-    
 
-	diff_list = [-0.025181710720062256, -0.00875278189778328, 0.0026961565017700195, 0.036100927740335464, 0.05424255132675171, 0.172138512134552, 0.03679084777832031, -0.8780305981636047, -0.5250230431556702, -0.31442582607269287, -0.37354910373687744, -0.5111374258995056, 0.07692824304103851, 	0.023552268743515015, 0.0667230486869812, 0.03793586790561676, 0.04668661579489708, -0.005420982837677002, -0.04322227090597153, -0.09433448500931263, 0.02496097981929779, -0.12218058109283447]
-	rej_diff_list = [0, 0, 0, 0, 0, 0, 0, -0.8780305981636047, -0.5250230431556702, -0.31442582607269287, -0.37354910373687744, -0.5111374258995056, 0, 0, 0, 0, 0, 0, 0, -0.09433448500931263, 0, 0]
-
-        
-
+For the change of the likelihood of the rejected tokens, I wonder what metric can I use to measure it. 
 
 ## Question
 
