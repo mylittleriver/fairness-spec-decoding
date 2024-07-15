@@ -15,6 +15,11 @@ The experiment is conducted using main model: gpt2, assistant model: distilgpt2
 	finetuned on ag_news with 1 epoch:
 	
 	![Untitled](Experiment%20Result%20a0d435bfdc63401282a3a7c9939eaa46/Untitled%206.png)
+
+	finetuned on ag_news with 3 epochs:
+
+	<img width="747" alt="image" src="https://github.com/user-attachments/assets/ad040ec9-3a51-4d87-b995-6fc97509fccd">
+
 	
 	
 	For now, I have finetuned both models on the seemingly unrelated dataset ag_news for 1, 2, 3 epochs using the following parameters and evaluated the mean KL value at these epochs respectively. Compared to without fine-tuning, which had a mean KL divergence value of 4.3072e-06, the values were 4.4415e-06, 4.2127e-06, and 4.1808e-06 at epochs 1, 2, and 3 respectively. This shows an initial increase in the mean KL divergence at epoch 1, followed by a decrease at epochs 2 and 3. 
