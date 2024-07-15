@@ -6,126 +6,126 @@ The experiment is conducted using main model: gpt2, assistant model: distilgpt2
 1. Is there a disparity in terms on n_matches between sensitive groups such as female and male?
 - **Yes, before finetuning we notice a disparity. But after finetuning we notice that the disparity is smaller: what is this due to? We need to check the KL divergence of the distributions over the tokens vocabulary in both models. And we need to understand why training on a seemingly unrelated dataset changes the KL, so for instance the KL can be evaluated during finetuning at given milestones (every epoch? every training step?)**
 
-The disparity in terms of n_matches (or ratio of n_matches to max new tokens, which indicates the percentage of tokens coming from the assistant model) is shown below:
-
-without finetuning:
-
-![Untitled](Experiment%20Result%20a0d435bfdc63401282a3a7c9939eaa46/Untitled%205.png)
-
-finetuned on ag_news with 1 epoch:
-
-![Untitled](Experiment%20Result%20a0d435bfdc63401282a3a7c9939eaa46/Untitled%206.png)
-
-
-For now, I have finetuned both models on the seemingly unrelated dataset ag_news for 1 epoch using the following parameters and evaluated the KL at epoch 1. The KL seems to have not changed much at epoch 1. Next I will evaluate the KL at 2, 3, ... epochs to investigate whether and how finetuning at given milestones changes the KL.
-
-
-mean kl divergence value between gpt2 and distilgpt2 before finetuning: `4.3072e-06`
-
-mean kl divergence value between gpt2 and distilgpt2 after finetuned on ag_news at epoch 1: `4.4415e-06`
-
-![Untitled](Experiment%20Result%20a0d435bfdc63401282a3a7c9939eaa46/Untitled%204.png)
-
-fine-tuning parameters:
-
-![Untitled](Experiment%20Result%20a0d435bfdc63401282a3a7c9939eaa46/Untitled.png)
-
-![Untitled](Experiment%20Result%20a0d435bfdc63401282a3a7c9939eaa46/Untitled%201.png)
-
-
-below is the information during fine-tuning:
-
-main model (gpt2):
-
-![Untitled](Experiment%20Result%20a0d435bfdc63401282a3a7c9939eaa46/Untitled%202.png)
-
-assistant model (distilgpt2):
-
-![Untitled](Experiment%20Result%20a0d435bfdc63401282a3a7c9939eaa46/Untitled%203.png)
-
-code for generating kl divergence:
-
-```python
-import torch.nn.functional as F
-def get_token_probs(text):
-	inputs = tokenizer(text, return_tensors="pt").to(model.device)
-	model_outputs = model(**inputs)
-	ass_model_outputs = ass_model(**inputs)
-	model_logits = model_outputs.logits
-	ass_model_logits = ass_model_outputs.logits
-	model_token_probs = torch.softmax(model_logits[0, -1, :], dim=0)
-	ass_model_token_probs = torch.softmax(ass_model_logits[0, -1, :], dim=0)
-	kl_div = F.kl_div(ass_model_token_probs.log(), model_token_probs, reduction='batchmean')
-	return kl_div
+	The disparity in terms of n_matches (or ratio of n_matches to max new tokens, which indicates the percentage of tokens coming from the assistant model) is shown below:
 	
-kl_divs = [get_token_probs(masked_sentence.replace(' [M].','')) for masked_sentence in tqdm(masked_templates.keys())]
-```
-
-I calculated KL over the honest dataset: `kl_divs = [get_token_probs(masked_sentence.replace(' [M].','')) for masked_sentence in tqdm(masked_templates.keys())]` and compared the mean value of KL before and after fine-tuning.
+	without finetuning:
+	
+	![Untitled](Experiment%20Result%20a0d435bfdc63401282a3a7c9939eaa46/Untitled%205.png)
+	
+	finetuned on ag_news with 1 epoch:
+	
+	![Untitled](Experiment%20Result%20a0d435bfdc63401282a3a7c9939eaa46/Untitled%206.png)
+	
+	
+	For now, I have finetuned both models on the seemingly unrelated dataset ag_news for 1 epoch using the following parameters and evaluated the KL at epoch 1. The KL seems to have not changed much at epoch 1. Next I will evaluate the KL at 2, 3, ... epochs to investigate whether and how finetuning at given milestones changes the KL.
+	
+	
+	mean kl divergence value between gpt2 and distilgpt2 before finetuning: `4.3072e-06`
+	
+	mean kl divergence value between gpt2 and distilgpt2 after finetuned on ag_news at epoch 1: `4.4415e-06`
+	
+	![Untitled](Experiment%20Result%20a0d435bfdc63401282a3a7c9939eaa46/Untitled%204.png)
+	
+	fine-tuning parameters:
+	
+	![Untitled](Experiment%20Result%20a0d435bfdc63401282a3a7c9939eaa46/Untitled.png)
+	
+	![Untitled](Experiment%20Result%20a0d435bfdc63401282a3a7c9939eaa46/Untitled%201.png)
+	
+	
+	below is the information during fine-tuning:
+	
+	main model (gpt2):
+	
+	![Untitled](Experiment%20Result%20a0d435bfdc63401282a3a7c9939eaa46/Untitled%202.png)
+	
+	assistant model (distilgpt2):
+	
+	![Untitled](Experiment%20Result%20a0d435bfdc63401282a3a7c9939eaa46/Untitled%203.png)
+	
+	code for generating kl divergence:
+	
+	```python
+	import torch.nn.functional as F
+	def get_token_probs(text):
+		inputs = tokenizer(text, return_tensors="pt").to(model.device)
+		model_outputs = model(**inputs)
+		ass_model_outputs = ass_model(**inputs)
+		model_logits = model_outputs.logits
+		ass_model_logits = ass_model_outputs.logits
+		model_token_probs = torch.softmax(model_logits[0, -1, :], dim=0)
+		ass_model_token_probs = torch.softmax(ass_model_logits[0, -1, :], dim=0)
+		kl_div = F.kl_div(ass_model_token_probs.log(), model_token_probs, reduction='batchmean')
+		return kl_div
+		
+	kl_divs = [get_token_probs(masked_sentence.replace(' [M].','')) for masked_sentence in tqdm(masked_templates.keys())]
+	```
+	
+	I calculated KL over the honest dataset: `kl_divs = [get_token_probs(masked_sentence.replace(' [M].','')) for masked_sentence in tqdm(masked_templates.keys())]` and compared the mean value of KL before and after fine-tuning.
 
 ## Question
 2. Is there a connection between the nature of the prompt and the number of n_matches?
 - Check how the generation of the smaller model would look for those inputs
 
-The assistant model calls the generate function in the get_candidates() function to forecast next N tokens. Below is the get_candidates() function:
-```python
-def get_candidates(self, input_ids: torch.LongTensor) -> Tuple[torch.LongTensor, Optional[torch.FloatTensor]]:
-        """
-        Fetches the candidates to be tried for the current input.
-
-        Args:
-            input_ids (`torch.LongTensor` of shape `(batch_size, sequence_length)`):
-                Indices of input sequence tokens in the vocabulary. [What are input IDs?](../glossary#input-ids)
-
-        Return:
-            `torch.LongTensor` of shape `(batch_size, candidate_length)` containing the candidate sequences to be
-            assessed by the model and a `torch.FloatTensor` of shape `(batch_size, candidate_length,
-            vocabulary_size)` containing the logits associated to each candidate.
-        """
-        input_ids = input_ids.to(self.assistant_model.device)
-
-        # Don't generate more than `max_length - 1` candidates since the target model generates one extra token.
-        new_cur_len = input_ids.shape[-1]
-        # print("self.num_assistant_tokens in get_candidates(): ",self.num_assistant_tokens)
-        max_new_tokens = min(int(self.num_assistant_tokens), self.generation_config.max_length - new_cur_len - 1)
-        min_new_tokens = max(min(max_new_tokens, self.main_model_min_length - new_cur_len), 0)
-        if max_new_tokens == 0:
-            return input_ids, None
-
-        # 1. If it is not the first round of candidate generation, prepare the inputs based on the input_ids length
-        # (which implicitly contains the number of accepted candidates from the previous round)
-        has_past_key_values = self.assistant_kwargs.get("past_key_values", None) is not None
-        if has_past_key_values:
-            new_cache_size = new_cur_len - 1
-            self.assistant_kwargs["past_key_values"] = _crop_past_key_values(
-                self.assistant_model, self.assistant_kwargs["past_key_values"], new_cache_size - 1
-            )  # the assistant does not have the token after the last match, hence the -1
-
-            self.assistant_kwargs = _prepare_attention_mask(
-                self.assistant_kwargs, new_cur_len, self.assistant_model.config.is_encoder_decoder
-            )
-            self.assistant_kwargs = _prepare_token_type_ids(self.assistant_kwargs, new_cur_len)
-
-        # 2. Forecast next N tokens using the assistant model.
-        assistant_generation_kwargs = {
-            self.input_ids_key: input_ids,
-            "min_new_tokens": min_new_tokens,
-            "max_new_tokens": max_new_tokens,
-            "generation_config": self.generation_config,
-            "logits_processor": self.logits_processor,
-        }
-
-        assistant_output = self.assistant_model.generate(**assistant_generation_kwargs, **self.assistant_kwargs)
-
-        assistant_output=assistant_output[0]
-        # 3. Update variables for the next round of candidate generation
-        self.assistant_kwargs["past_key_values"] = assistant_output.past_key_values
-
-        # 4. Prepare variables for output
-        candidate_logits = torch.stack(assistant_output.scores, dim=1)
-        candidate_ids = assistant_output.sequences
-        return candidate_ids, candidate_logits
-```
+	The assistant model calls the generate function in the get_candidates() function to forecast next N tokens. Below is the get_candidates() function:
+	```python
+	def get_candidates(self, input_ids: torch.LongTensor) -> Tuple[torch.LongTensor, Optional[torch.FloatTensor]]:
+	        """
+	        Fetches the candidates to be tried for the current input.
+	
+	        Args:
+	            input_ids (`torch.LongTensor` of shape `(batch_size, sequence_length)`):
+	                Indices of input sequence tokens in the vocabulary. [What are input IDs?](../glossary#input-ids)
+	
+	        Return:
+	            `torch.LongTensor` of shape `(batch_size, candidate_length)` containing the candidate sequences to be
+	            assessed by the model and a `torch.FloatTensor` of shape `(batch_size, candidate_length,
+	            vocabulary_size)` containing the logits associated to each candidate.
+	        """
+	        input_ids = input_ids.to(self.assistant_model.device)
+	
+	        # Don't generate more than `max_length - 1` candidates since the target model generates one extra token.
+	        new_cur_len = input_ids.shape[-1]
+	        # print("self.num_assistant_tokens in get_candidates(): ",self.num_assistant_tokens)
+	        max_new_tokens = min(int(self.num_assistant_tokens), self.generation_config.max_length - new_cur_len - 1)
+	        min_new_tokens = max(min(max_new_tokens, self.main_model_min_length - new_cur_len), 0)
+	        if max_new_tokens == 0:
+	            return input_ids, None
+	
+	        # 1. If it is not the first round of candidate generation, prepare the inputs based on the input_ids length
+	        # (which implicitly contains the number of accepted candidates from the previous round)
+	        has_past_key_values = self.assistant_kwargs.get("past_key_values", None) is not None
+	        if has_past_key_values:
+	            new_cache_size = new_cur_len - 1
+	            self.assistant_kwargs["past_key_values"] = _crop_past_key_values(
+	                self.assistant_model, self.assistant_kwargs["past_key_values"], new_cache_size - 1
+	            )  # the assistant does not have the token after the last match, hence the -1
+	
+	            self.assistant_kwargs = _prepare_attention_mask(
+	                self.assistant_kwargs, new_cur_len, self.assistant_model.config.is_encoder_decoder
+	            )
+	            self.assistant_kwargs = _prepare_token_type_ids(self.assistant_kwargs, new_cur_len)
+	
+	        # 2. Forecast next N tokens using the assistant model.
+	        assistant_generation_kwargs = {
+	            self.input_ids_key: input_ids,
+	            "min_new_tokens": min_new_tokens,
+	            "max_new_tokens": max_new_tokens,
+	            "generation_config": self.generation_config,
+	            "logits_processor": self.logits_processor,
+	        }
+	
+	        assistant_output = self.assistant_model.generate(**assistant_generation_kwargs, **self.assistant_kwargs)
+	
+	        assistant_output=assistant_output[0]
+	        # 3. Update variables for the next round of candidate generation
+	        self.assistant_kwargs["past_key_values"] = assistant_output.past_key_values
+	
+	        # 4. Prepare variables for output
+	        candidate_logits = torch.stack(assistant_output.scores, dim=1)
+	        candidate_ids = assistant_output.sequences
+	        return candidate_ids, candidate_logits
+	```
 
   
 - compute the likelihood difference for the rejected completions, i.e. how much more likely are the rejected tokens in the smaller model compared to the same tokens in the larger model
@@ -134,19 +134,24 @@ def get_candidates(self, input_ids: torch.LongTensor) -> Tuple[torch.LongTensor,
 
 ## Question
 
-8. **We should try another finetuning dataset to see if the models are also more aligned after this new finetuning just to understand if a mere finetuning step is enough to align the two models.**
+5. Model finetuning
+- We should try another finetuning dataset to see if the models are also more aligned after this new finetuning just to understand if a mere finetuning step is enough to align the two models.
+
+	Yes, after finetuning on another dataset ag_news the models are also more aligned. SST2 and ag_news are seemingly unrelated datasets for this task, but finetuning both models on the same dataset makes the result (disparity in terms on n_matches between sensitive groups) more aligned. The original way of finetuning in the lora paper was finetuning the models on the counterfactuals generated by tulu-v1-llama2-7b. I will consider generating the counterfactuals and finetuning the models on the counterfactuals as well.
 
 ## Question
 
-10. **Does the finetuning always improve the model completion? In other words, according to some metric (for instance presence of bias) do the completions get better after finetuning: this is important when we finetune with counterfactuals to see if the smaller model catches up in producing less biased completions faster.**
+6. Does the finetuning always improve the model completion? In other words, according to some metric (for instance presence of bias) do the completions get better after finetuning: this is important when we finetune with counterfactuals to see if the smaller model catches up in producing less biased completions faster.
 
-### toxicity
+	I assume the presence of bias can be represented as toxicity, and I use toxicityMeasure_interactive.py and plot_toxicity.ipynb to plot the toxicity before and after finetuning.
 
-before fine-tuning:
-
-![image](https://github.com/user-attachments/assets/0fa5cd1c-8df1-4558-a14d-34135690a713)
-
-
-after fine-tuning:
-
-![image](https://github.com/user-attachments/assets/dbffe494-b8ef-4b3d-82b3-48032119322f)
+	### toxicity
+	
+	before fine-tuning:
+	
+	![image](https://github.com/user-attachments/assets/0fa5cd1c-8df1-4558-a14d-34135690a713)
+	
+	
+	after fine-tuning:
+	
+	![image](https://github.com/user-attachments/assets/dbffe494-b8ef-4b3d-82b3-48032119322f)
