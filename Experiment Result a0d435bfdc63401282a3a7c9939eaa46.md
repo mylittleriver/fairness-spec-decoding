@@ -108,7 +108,8 @@ The experiment is conducted using main model: gpt2, assistant model: distilgpt2
 2. Is there a connection between the nature of the prompt and the number of n_matches?
 - Check how the generation of the smaller model would look for those inputs
 
-	The assistant model calls the generate function in the get_candidates() function to forecast next N tokens. Below is the get_candidates() function:
+	The assistant model calls the generate() function in the get_candidates() function to forecast next N tokens. Need to find the generation mode when the assistant model calls the generate() function. Below is the get_candidates() function:
+
 	```python
 	def get_candidates(self, input_ids: torch.LongTensor) -> Tuple[torch.LongTensor, Optional[torch.FloatTensor]]:
 	        """
