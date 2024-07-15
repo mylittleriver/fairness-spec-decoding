@@ -175,6 +175,23 @@ The experiment is conducted using main model: gpt2, assistant model: distilgpt2
 
 ## Question
 
+4. Batch size
+
+Currently in Transformers speculative decoding is only supported for batch_size = 1
+
+```python
+if generation_mode == GenerationMode.ASSISTED_GENERATION:
+    if generation_config.num_return_sequences > 1:
+	raise ValueError(
+	    "num_return_sequences has to be 1 when doing assisted generate, "
+	    f"but is {generation_config.num_return_sequences}."
+	)
+    if batch_size > 1:
+	raise ValueError("assisted generate is only supported for batch_size = 1")
+```
+
+## Question
+
 5. Model finetuning
 - We should try another finetuning dataset to see if the models are also more aligned after this new finetuning just to understand if a mere finetuning step is enough to align the two models.
 
