@@ -173,7 +173,8 @@ The experiment is conducted using main model: gpt2, assistant model: distilgpt2
 - compute the likelihood difference for the rejected completions, i.e. how much more likely are the rejected tokens in the smaller model compared to the same tokens in the larger model
 
 	- How does the likelihood of the rejected tokens change: does it get closer to the likelihood of the larger model or does it diverge more?
-   	What metric can I use to measure the change of the likelihood of the rejected tokens? Below is the code for computing the likelihood difference for the rejected tokens and I'm not sure if this is what we want
+
+   What metric can I use to measure the change of the likelihood of the rejected tokens? Below is the code for computing the likelihood difference for the rejected tokens and I'm not sure if this is what we want
    
    
    	```python
@@ -195,8 +196,8 @@ In the following example, I computed the likelihood difference for all tokens (a
 
     
 
-		diff_list = [-0.025181710720062256, -0.00875278189778328, 0.0026961565017700195, 0.036100927740335464, 0.05424255132675171, 0.172138512134552, 				0.03679084777832031, -0.8780305981636047, -0.5250230431556702, -0.31442582607269287, -0.37354910373687744, -0.5111374258995056, 0.07692824304103851, 			0.023552268743515015, 0.0667230486869812, 0.03793586790561676, 0.04668661579489708, -0.005420982837677002, -0.04322227090597153, -0.09433448500931263, 			0.02496097981929779, -0.12218058109283447]
-		rej_diff_list = [0, 0, 0, 0, 0, 0, 0, -0.8780305981636047, -0.5250230431556702, -0.31442582607269287, -0.37354910373687744, -0.5111374258995056, 0, 0, 			0, 0, 0, 0, 0, -0.09433448500931263, 0, 0]
+		diff_list = [-0.025181710720062256, -0.00875278189778328, 0.0026961565017700195, 0.036100927740335464, 0.05424255132675171, 0.172138512134552, 0.03679084777832031, -0.8780305981636047, -0.5250230431556702, -0.31442582607269287, -0.37354910373687744, -0.5111374258995056, 0.07692824304103851, 	0.023552268743515015, 0.0667230486869812, 0.03793586790561676, 0.04668661579489708, -0.005420982837677002, -0.04322227090597153, -0.09433448500931263, 0.02496097981929779, -0.12218058109283447]
+		rej_diff_list = [0, 0, 0, 0, 0, 0, 0, -0.8780305981636047, -0.5250230431556702, -0.31442582607269287, -0.37354910373687744, -0.5111374258995056, 0, 0, 0, 0, 0, 0, 0, -0.09433448500931263, 0, 0]
 
         
 
