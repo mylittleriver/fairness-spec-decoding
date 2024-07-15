@@ -177,27 +177,27 @@ The experiment is conducted using main model: gpt2, assistant model: distilgpt2
    
    
    	```python
-	    	l=len(ac_list)
-		diff_list=[]
-		rej_diff_list=[]
-		for i in range(l):
-		    diff_list.append(p_list[i]-q_list[i])
-		    if(ac_list[i]==False):
-		        rej_diff_list.append(p_list[i]-q_list[i])
-		    else:
-		        rej_diff_list.append(0)
-	    	print(diff_list)
-		print(rej_diff_list)
+	l=len(ac_list)
+	diff_list=[]
+	rej_diff_list=[]
+	for i in range(l):
+	    diff_list.append(p_list[i]-q_list[i])
+	    if(ac_list[i]==False):
+		rej_diff_list.append(p_list[i]-q_list[i])
+	    else:
+		rej_diff_list.append(0)
+	print(diff_list)
+	print(rej_diff_list)
     	```
     
     
 In the following example, I computed the likelihood difference for all tokens (accepted and rejected), and the likelihood difference for rejected tokens, stored in diff_list and rej_diff_list respectively.
 
     
-    	```python
+
 		diff_list = [-0.025181710720062256, -0.00875278189778328, 0.0026961565017700195, 0.036100927740335464, 0.05424255132675171, 0.172138512134552, 				0.03679084777832031, -0.8780305981636047, -0.5250230431556702, -0.31442582607269287, -0.37354910373687744, -0.5111374258995056, 0.07692824304103851, 			0.023552268743515015, 0.0667230486869812, 0.03793586790561676, 0.04668661579489708, -0.005420982837677002, -0.04322227090597153, -0.09433448500931263, 			0.02496097981929779, -0.12218058109283447]
 		rej_diff_list = [0, 0, 0, 0, 0, 0, 0, -0.8780305981636047, -0.5250230431556702, -0.31442582607269287, -0.37354910373687744, -0.5111374258995056, 0, 0, 			0, 0, 0, 0, 0, -0.09433448500931263, 0, 0]
-    	```
+
         
 
 
