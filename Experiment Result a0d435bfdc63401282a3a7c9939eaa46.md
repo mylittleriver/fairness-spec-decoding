@@ -17,31 +17,67 @@ The experiment is conducted using main model: gpt2, assistant model: distilgpt2
 	![Untitled](Experiment%20Result%20a0d435bfdc63401282a3a7c9939eaa46/Untitled%206.png)
 	
 	
-	For now, I have finetuned both models on the seemingly unrelated dataset ag_news for 1 epoch using the following parameters and evaluated the KL at epoch 1. The KL seems to have not changed much at epoch 1. Next I will evaluate the KL at 2, 3, ... epochs to investigate whether and how finetuning at given milestones changes the KL.
+	For now, I have finetuned both models on the seemingly unrelated dataset ag_news for 1, 2, 3 epochs using the following parameters and evaluated the mean KL value at these epochs respectively. Compared to without fine-tuning, which had a mean KL divergence value of 4.3072e-06, the values were 4.4415e-06, 4.2127e-06, and 4.1808e-06 at epochs 1, 2, and 3 respectively. This shows an initial increase in the mean KL divergence at epoch 1, followed by a decrease at epochs 2 and 3. 
 	
 	
-	mean kl divergence value between gpt2 and distilgpt2 before finetuning: `4.3072e-06`
-	
-	mean kl divergence value between gpt2 and distilgpt2 after finetuned on ag_news at epoch 1: `4.4415e-06`
-	
-	![Untitled](Experiment%20Result%20a0d435bfdc63401282a3a7c9939eaa46/Untitled%204.png)
+	<img width="866" alt="image" src="https://github.com/user-attachments/assets/a2066ffb-e5c1-4103-baff-48348395d671">
+
 	
 	fine-tuning parameters:
 	
-	![Untitled](Experiment%20Result%20a0d435bfdc63401282a3a7c9939eaa46/Untitled.png)
+	```python
+	batch_size = 8
+	num_workers = os.cpu_count()
+	max_steps = 5
+	bf16 = True
+	fp16 = False
+	gradient_accumulation_steps = 32
+	context_length = 512
+	logging_steps = 100
+	save_steps = 100
+	learning_rate = 0.00005
+	num_train_epochs=3
+	 ```
+
+	```python
+ 	training_args = TrainingArguments(
+	    output_dir='logs',
+	    eval_strategy='steps',
+	    weight_decay=0.01,
+	    load_best_model_at_end=True,
+	    per_device_train_batch_size=batch_size,
+	    per_device_eval_batch_size=batch_size,
+	    logging_strategy='steps',
+	    save_strategy='steps',
+	    logging_steps=logging_steps,
+	    save_steps=save_steps,
+	    save_total_limit=2,
+	    bf16=bf16,
+	    fp16=fp16,
+	    report_to='tensorboard',
+	    num_train_epochs=num_train_epochs,
+	    dataloader_num_workers=num_workers,
+	    gradient_accumulation_steps=gradient_accumulation_steps,
+	    learning_rate=learning_rate,
+	    lr_scheduler_type='constant',
+	)
+ 	```
+ 
 	
-	![Untitled](Experiment%20Result%20a0d435bfdc63401282a3a7c9939eaa46/Untitled%201.png)
+	
 	
 	
 	below is the information during fine-tuning:
 	
 	main model (gpt2):
 	
-	![Untitled](Experiment%20Result%20a0d435bfdc63401282a3a7c9939eaa46/Untitled%202.png)
+	<img width="387" alt="image" src="https://github.com/user-attachments/assets/a9a635c8-5325-41fc-a264-073b6d23fc51">
+
 	
 	assistant model (distilgpt2):
 	
-	![Untitled](Experiment%20Result%20a0d435bfdc63401282a3a7c9939eaa46/Untitled%203.png)
+	<img width="388" alt="image" src="https://github.com/user-attachments/assets/29629048-badd-49dd-b4eb-f91204cd3337">
+
 	
 	code for generating kl divergence:
 	
