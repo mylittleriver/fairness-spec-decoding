@@ -141,9 +141,9 @@ The experiment is conducted using main model: gpt2, assistant model: distilgpt2
 
 ## Question
 
-6. Does the finetuning always improve the model completion? In other words, according to some metric (for instance presence of bias) do the completions get better after finetuning: this is important when we finetune with counterfactuals to see if the smaller model catches up in producing less biased completions faster.
+6. Does the finetuning always improve the model completion? In other words, according to some metric (for instance presence of bias) do the completions get better after finetuning: this is important when we finetune with counterfactuals to see if the smaller model catches up in producing less biased completions faster. After fine-tuning, the 
 
-	I assume the presence of bias can be represented as toxicity, and I use toxicityMeasure_interactive.py and plot_toxicity.ipynb to plot the toxicity before and after finetuning.
+	I assume the presence of bias can be represented as toxicity, and I use toxicityMeasure_interactive.py and plot_toxicity.ipynb to plot the toxicity before and after finetuning. After fine-tuning, the number of Toxic Sentence Completions has decreased.
 
 	### toxicity
 	
@@ -152,6 +152,6 @@ The experiment is conducted using main model: gpt2, assistant model: distilgpt2
 	![image](https://github.com/user-attachments/assets/0fa5cd1c-8df1-4558-a14d-34135690a713)
 	
 	
-	after fine-tuning:
+	after fine-tuning on ag_news:
 	
 	![image](https://github.com/user-attachments/assets/dbffe494-b8ef-4b3d-82b3-48032119322f)
