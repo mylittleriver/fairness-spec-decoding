@@ -130,7 +130,15 @@ def get_candidates(self, input_ids: torch.LongTensor) -> Tuple[torch.LongTensor,
   
 - compute the likelihood difference for the rejected completions, i.e. how much more likely are the rejected tokens in the smaller model compared to the same tokens in the larger model
 
+	- How does the likelihood of the rejected tokens change: does it get closer to the likelihood of the larger model or does it diverge more?
 
+## Question
+
+8. **We should try another finetuning dataset to see if the models are also more aligned after this new finetuning just to understand if a mere finetuning step is enough to align the two models.**
+
+## Question
+
+10. **Does the finetuning always improve the model completion? In other words, according to some metric (for instance presence of bias) do the completions get better after finetuning: this is important when we finetune with counterfactuals to see if the smaller model catches up in producing less biased completions faster.**
 
 ### toxicity
 
