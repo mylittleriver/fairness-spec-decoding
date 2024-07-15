@@ -176,17 +176,17 @@ The experiment is conducted using main model: gpt2, assistant model: distilgpt2
    	What metric can I use to measure the change of the likelihood of the rejected tokens? Below is the code for computing the likelihood difference for the rejected tokens and I'm not sure if this is what we want
    
    	```python
-    	l=len(ac_list)
-	diff_list=[]
-	rej_diff_list=[]
-	for i in range(l):
-	    diff_list.append(p_list[i]-q_list[i])
-	    if(ac_list[i]==False):
-	        rej_diff_list.append(p_list[i]-q_list[i])
-	    else:
-	        rej_diff_list.append(0)
-    	print(diff_list)
-	print(rej_diff_list)
+	    	l=len(ac_list)
+		diff_list=[]
+		rej_diff_list=[]
+		for i in range(l):
+		    diff_list.append(p_list[i]-q_list[i])
+		    if(ac_list[i]==False):
+		        rej_diff_list.append(p_list[i]-q_list[i])
+		    else:
+		        rej_diff_list.append(0)
+	    	print(diff_list)
+		print(rej_diff_list)
     	```
     
     	In one example,
