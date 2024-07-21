@@ -227,7 +227,7 @@ if generation_mode == GenerationMode.ASSISTED_GENERATION:
 
 ## Question
 
-6. Does the finetuning always improve the model completion? In other words, according to some metric (for instance presence of bias) do the completions get better after finetuning: this is important when we finetune with counterfactuals to see if the smaller model catches up in producing less biased completions faster. After fine-tuning, the 
+6. Does the finetuning always improve the model completion? In other words, according to some metric (for instance presence of bias) do the completions get better after finetuning: this is important when we finetune with counterfactuals to see if the smaller model catches up in producing less biased completions faster.
 
 	I assume the presence of bias can be represented as toxicity, and I use toxicityMeasure_interactive.py and plot_toxicity.ipynb to plot the toxicity before and after finetuning. After fine-tuning on ag_news for 1 epoch, the number of toxic sentence completions has decreased.
 
