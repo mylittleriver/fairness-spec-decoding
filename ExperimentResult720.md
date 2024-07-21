@@ -9,12 +9,24 @@ After finetuning the gpt-neo-1.3B and gpt-neo-125M on sst2 and wikitext respecti
 
 
 
-<figure>
-    <img src="https://github.com/user-attachments/assets/0884cefa-6d01-4b6b-9899-78ac64b843ac" width = "45%" alt=""/> 
+
+<!--     <img src="" width = "45%" alt=""/>  -->
 <!--     <img src="https://github.com/user-attachments/assets/cc2019df-4b1e-4d3d-af40-caf3d5306203" width = "45%" alt=""/> 
  -->
-    <center><figcaption>n_matches/max new tokens after finetuning neo-1.3B/neo-125M on sst2/wikitext respectively for 1 epoch (left) and after finetuning the two models on the third dataset imdb for 1 epoch (right)</figcaption></center>
-</figure>
+<!--     <center><figcaption>n_matches/max new tokens after finetuning neo-1.3B/neo-125M on sst2/wikitext respectively for 1 epoch (left) and after finetuning the two models on the third dataset imdb for 1 epoch (right)</figcaption></center> -->
+<!-- </figure> -->
+
+<center>
+    <img style="width: 20%; border-radius: 0.32em;
+    box-shadow: 0 2px 5px 0 rgba(35,36,38,.12),0 2px 10px 0 rgba(35,36,38,.08);" 
+    src="https://github.com/user-attachments/assets/0884cefa-6d01-4b6b-9899-78ac64b843ac">
+    <br>
+    <div style="color:orange; border-bottom: 1px solid #d9d9d7;
+    display: inline-block;
+    color: #999;
+    padding: 2px;">Wiener打赏码</div>
+</center>
+
 
 
 
