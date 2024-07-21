@@ -1,5 +1,7 @@
 ## Experiment Result
 
+The experiments are conducted using EleutherAI/gpt-neo-1.3B as the main model, EleutherAI/gpt-neo-125M as the assistant model, and temperature is set to 1e-9 to make the model more deterministic.
+ 
 ### Question
 
 **The reason for the reduce of toxicity after finetuning the model on random datasets may be that the gpt2 model has inherent biases, so we need to use different models other than gpt2. May consider EleutherAI/gpt-neo-1.3B and EleutherAI/gpt-neo-125M. Also, we need to finetune the main and assistant models on two different datasets, and then finetune them on the same datasets and re-conduct the experiments.**
@@ -28,8 +30,25 @@ After finetuning the gpt-neo-1.3B and gpt-neo-125M on sst2 and wikitext respecti
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
     src="https://github.com/user-attachments/assets/07b0a692-aa9a-4337-9e26-10de42405c8c" width = "48%" alt=""/>
     <br>
-    
 </center>
+
+
+###Question
+**Does the finetuning always improve the model completion? In other words, according to some metric (for instance presence of bias) do the completions get better after finetuning: this is important when we finetune with counterfactuals to see if the smaller model catches up in producing less biased completions faster.**
+
+After finetuning the gpt-neo-1.3B and gpt-neo-125M on sst2 and wikitext respectively, the number of toxic completions is 186, and after a second finetuning on imdb for both models, the number becomes 229, thus the toxicity has increased. While for the gpt2/distilgpt2 pair, the toxicity decreased after finetuning on ag_news.
+
+
+ <center>
+    <img style="border-radius: 0.3125em;
+    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
+    src="https://github.com/user-attachments/assets/028f2bc9-6e0d-487c-9d6b-1a3c3287ad96" width = "48%" alt=""/>
+    <img style="border-radius: 0.3125em;
+    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
+    src="https://github.com/user-attachments/assets/be4f1cd4-f42f-412b-b2b3-1614f2f2b59a" width = "48%" alt=""/>
+    <br>
+</center>
+
 
 
 
