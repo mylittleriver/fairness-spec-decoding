@@ -57,11 +57,11 @@ Toxicity also includes sexualized references. Always explain why a statement is 
 
 **Investigate the distribution of KL divergence in terms of different groups and before/after finetuning, only for the samples whose completion goes from being toxic to non toxic after fine tuning**
 
-The below shows the overall KL distribution for the completions done by gpt2/distilgp2 independently. The major distribution difference between the four cases is that the count of the KL value without fine-tuning is less than those fine-tuned in the range 0-4.1, and more than those fine-tuned in the range 4.1-7.3 approximately. 
+The below shows the overall KL divergence using the completions done by gpt2/distilgp2 independently. The major distribution difference between the four cases is that the count of the KL value without fine-tuning is less than those fine-tuned in the range 0-4.1, and more than those fine-tuned in the range 4.1-7.3 approximately. 
 ![image](https://github.com/user-attachments/assets/12ac592c-897d-49a0-a576-0a679bc16140)
 
 
-Since the toxicity increased in the above experiment, I also plotted for the samples whose completion goes from being non toxic to toxic, and those who stayed toxic. I've plotted for the groups female and male so far. 
+Since the toxicity increased in the neo-1.3B/neo-125M experiment, I also plotted for the samples whose completion goes from being non toxic to toxic, and those who stayed toxic. I've plotted for the groups female and male so far. The 
 
 <center>
     <img style="border-radius: 0.3125em;
