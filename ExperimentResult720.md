@@ -33,7 +33,7 @@ After finetuning the gpt-neo-1.3B and gpt-neo-125M on sst2 and wikitext respecti
 </center>
 
 
-###Question
+### Question
 **Does the finetuning always improve the model completion? In other words, according to some metric (for instance presence of bias) do the completions get better after finetuning: this is important when we finetune with counterfactuals to see if the smaller model catches up in producing less biased completions faster.**
 
 After finetuning the gpt-neo-1.3B and gpt-neo-125M on sst2 and wikitext respectively, the number of toxic completions is 186, and after a second finetuning on imdb for both models, the number becomes 229, thus the toxicity has increased. While for the gpt2/distilgpt2 pair, the toxicity decreased after finetuning on ag_news.
