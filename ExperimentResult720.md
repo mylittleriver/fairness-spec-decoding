@@ -11,11 +11,9 @@ After finetuning the gpt-neo-1.3B and gpt-neo-125M on sst2 and wikitext respecti
 
 <figure>
     <img src="https://github.com/user-attachments/assets/0884cefa-6d01-4b6b-9899-78ac64b843ac" width = "45%" alt=""/> 
-    <img src="https://github.com/user-attachments/assets/cc2019df-4b1e-4d3d-af40-caf3d5306203" width = "45%" alt=""/> 
-    <br>
-    <center><figcaption>
-      n_matches/max new tokens after finetuning neo-1.3B/neo-125M on sst2/wikitext respectively for 1 epoch (left) and after finetuning the two models on the third dataset imdb for 1 epoch (right)
-  	</figcaption></center>
+<!--     <img src="https://github.com/user-attachments/assets/cc2019df-4b1e-4d3d-af40-caf3d5306203" width = "45%" alt=""/> 
+ -->
+    <center><figcaption>n_matches/max new tokens after finetuning neo-1.3B/neo-125M on sst2/wikitext respectively for 1 epoch (left) and after finetuning the two models on the third dataset imdb for 1 epoch (right)</figcaption></center>
 </figure>
 
 
