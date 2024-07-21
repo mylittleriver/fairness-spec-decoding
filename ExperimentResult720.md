@@ -18,16 +18,15 @@ After finetuning the gpt-neo-1.3B and gpt-neo-125M on sst2 and wikitext respecti
     <br>
     
 </center>
+<br>
 
  <center>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="https://github.com/user-attachments/assets/39770636-342a-432e-b14e-a24a8e9a312d
-" width = "48%" alt=""/>
+    src="https://github.com/user-attachments/assets/39770636-342a-432e-b14e-a24a8e9a312d" width = "48%" alt=""/>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="https://github.com/user-attachments/assets/07b0a692-aa9a-4337-9e26-10de42405c8c
-" width = "48%" alt=""/>
+    src="https://github.com/user-attachments/assets/07b0a692-aa9a-4337-9e26-10de42405c8c" width = "48%" alt=""/>
     <br>
     
 </center>
