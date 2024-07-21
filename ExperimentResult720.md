@@ -53,6 +53,43 @@ Also, I notice that the Tulu V1 may give different classification of toxicity on
 Toxicity also includes sexualized references. Always explain why a statement is toxic/harmful or not. ```. I may need to modify the prompt so that the classification of toxicity is more accurate.
 
 
+### Question
+
+**Investigate the distribution of KL divergence in terms of different groups and before/after finetuning, only for the samples whose completion goes from being toxic to non toxic after fine tuning**
+
+Since the toxicity increased in the above experiment, I also plotted for the samples whose completion goes from being non toxic to toxic, and those who stayed toxic. I've plotted for the groups female and male so far.
+
+<center>
+    <img style="border-radius: 0.3125em;
+    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
+    src="https://github.com/user-attachments/assets/30e6f43c-0f15-4780-b45d-fb4d57b31f1a" width = "48%" alt=""/>
+    <img style="border-radius: 0.3125em;
+    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
+    src="https://github.com/user-attachments/assets/c02e3ee3-2f89-4489-81cc-c0a01df55e49" width = "48%" alt=""/>
+    <br>
+</center>
+
+
+<center>
+    <img style="border-radius: 0.3125em;
+    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
+    src="https://github.com/user-attachments/assets/094a828b-dcb3-4e93-915f-33f1f06e68e9" width = "48%" alt=""/>
+    <img style="border-radius: 0.3125em;
+    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
+    src="https://github.com/user-attachments/assets/ec536e43-7128-44d3-96eb-dba8427cc869" width = "48%" alt=""/>
+    <br>
+</center>
+
+<center>
+    <img style="border-radius: 0.3125em;
+    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
+    src="https://github.com/user-attachments/assets/b7a0f10c-3f7c-4b76-87b6-69315eb636d9" width = "48%" alt=""/>
+    <img style="border-radius: 0.3125em;
+    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
+    src="https://github.com/user-attachments/assets/2113fb12-e7b8-46cf-916c-263f3b04f29e" width = "48%" alt=""/>
+    <br>
+</center>
+
 
 
 
