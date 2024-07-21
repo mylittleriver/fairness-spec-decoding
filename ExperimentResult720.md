@@ -61,7 +61,7 @@ The below shows the overall KL divergence distribution using the completions don
 ![image](https://github.com/user-attachments/assets/12ac592c-897d-49a0-a576-0a679bc16140)
 
 
-Since the toxicity increased in the neo-1.3B/neo-125M experiment, I also plotted for the samples whose completion goes from being non toxic to toxic, and those who stayed toxic. I've plotted for the groups female and male so far. The 
+Since the toxicity increased in the neo-1.3B/neo-125M experiment, I also plotted for the samples whose completion goes from being non toxic to toxic, and those who stayed toxic. I've plotted for the groups female and male so far. The distribution difference is that the lower limit of the KL value is smaller for the case with finetuning on the third dataset imdb.
 
 <center>
     <img style="border-radius: 0.3125em;
