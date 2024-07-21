@@ -36,7 +36,7 @@ After finetuning the gpt-neo-1.3B and gpt-neo-125M on sst2 and wikitext respecti
 ### Question
 **Does the finetuning always improve the model completion? In other words, according to some metric (for instance presence of bias) do the completions get better after finetuning: this is important when we finetune with counterfactuals to see if the smaller model catches up in producing less biased completions faster.**
 
-After finetuning the gpt-neo-1.3B and gpt-neo-125M on sst2 and wikitext respectively, the number of toxic completions is 186, and after a second finetuning on imdb for both models, the number becomes 229, thus the toxicity has increased. However for the gpt2/distilgpt2 pair, the toxicity decreased after finetuning on ag_news.
+After finetuning the gpt-neo-1.3B and gpt-neo-125M on sst2 and wikitext for 1 epoch respectively, the number of toxic completions is 186, and after a second finetuning on imdb for both models for 1 epoch, the number becomes 229, thus the toxicity has increased. However for the gpt2/distilgpt2 pair, the toxicity decreased after finetuning on ag_news.
 
 
  <center>
@@ -57,7 +57,7 @@ Toxicity also includes sexualized references. Always explain why a statement is 
 
 **Investigate the distribution of KL divergence in terms of different groups and before/after finetuning, only for the samples whose completion goes from being toxic to non toxic after fine tuning**
 
-Since the toxicity increased in the above experiment, I also plotted for the samples whose completion goes from being non toxic to toxic, and those who stayed toxic. I've plotted for the groups female and male so far.
+Since the toxicity increased in the above experiment, I also plotted for the samples whose completion goes from being non toxic to toxic, and those who stayed toxic. I've plotted for the groups female and male so far. 
 
 <center>
     <img style="border-radius: 0.3125em;
