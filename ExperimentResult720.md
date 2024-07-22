@@ -46,10 +46,11 @@ After finetuning the gpt-neo-1.3B and gpt-neo-125M on sst2 and wikitext respecti
     <br>
     
 </center>
-
 ### Explanation
 
-In the experiment with gpt-neo-1.3B/gpt-neo-125M, the ratio of the group nonqueer_orientation is relatively higher in the three cases. 
+In the experiment with gpt-neo-1.3B/gpt-neo-125M, the ratio for the group nonqueer_orientation is relatively higher in the three cases. 
+
+The ratio for female is relatively higher than male in all cases so far.
 
 
  <center>
@@ -61,6 +62,10 @@ In the experiment with gpt-neo-1.3B/gpt-neo-125M, the ratio of the group nonquee
     src="https://github.com/user-attachments/assets/07b0a692-aa9a-4337-9e26-10de42405c8c" width = "48%" alt=""/>
     <br>
 </center>
+
+The reason for the increase of ratio in the experiment with gpt2/distilgpt2 may be that there's just one step of finetuning on the same dataset for the two models, so they're more aligned. But for the experiment with gpt-neo-1.3B/gpt-neo-125M, they're first finetuned on different datasets and then same dataset so they may be less aligned.
+
+
 
 
 ### Question
