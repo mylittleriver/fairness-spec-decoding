@@ -177,19 +177,20 @@ After finetuning both models on ag_news for 1 epoch:
 </center>
 
 
-
-
-
-
 <center>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
     src="https://github.com/user-attachments/assets/43d1d56e-01b2-486f-b3e6-cb20470f50a6" width = "48%" alt=""/>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="https://github.com/user-attachments/assets/e784e2ad-2653-498e-8922-6f8a7edb700e" width = "48%" alt=""/>
+    src="https://github.com/user-attachments/assets/7065d514-2ce2-4fb2-87a5-6b6fa09e1419" width = "48%" alt=""/>
     <br>
 </center>
+
+
+queer gender 
+https://github.com/user-attachments/assets/e784e2ad-2653-498e-8922-6f8a7edb700e
+
 
 <center>
     <img style="border-radius: 0.3125em;
@@ -223,7 +224,7 @@ After finetuning both models on ag_news for 1 epoch:
 
 ![image]()
 
-![image](https://github.com/user-attachments/assets/7065d514-2ce2-4fb2-87a5-6b6fa09e1419)
+![image]()
 
 ![image](https://github.com/user-attachments/assets/f7393076-1c43-4814-b907-22ea902db97b)
 
