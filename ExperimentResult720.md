@@ -161,9 +161,25 @@ After finetuning both models on ag_news for 1 epoch:
     src="https://github.com/user-attachments/assets/c477604b-7de4-47ef-9b39-8ba098f5bbd7" width = "48%" alt=""/>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="https://github.com/user-attachments/assets/d75c4b14-799f-4871-b94a-f5e0d44a13cf" width = "48%" alt=""/>
+    src="https://github.com/user-attachments/assets/26ad769d-a38a-4d42-ae25-0a137863624d" width = "48%" alt=""/>
     <br>
 </center>
+
+
+<center>
+    <img style="border-radius: 0.3125em;
+    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
+    src="https://github.com/user-attachments/assets/d75c4b14-799f-4871-b94a-f5e0d44a13cf" width = "48%" alt=""/>
+    <img style="border-radius: 0.3125em;
+    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
+    src="https://github.com/user-attachments/assets/9da746c5-deb1-448c-9088-4b9f4e3e4278" width = "48%" alt=""/>
+    <br>
+</center>
+
+
+
+
+
 
 <center>
     <img style="border-radius: 0.3125em;
@@ -202,10 +218,10 @@ After finetuning both models on ag_news for 1 epoch:
 
 ![image]()
 
-![image](https://github.com/user-attachments/assets/9da746c5-deb1-448c-9088-4b9f4e3e4278)
+![image]()
 
 
-![image](https://github.com/user-attachments/assets/26ad769d-a38a-4d42-ae25-0a137863624d)
+![image]()
 
 ![image](https://github.com/user-attachments/assets/7065d514-2ce2-4fb2-87a5-6b6fa09e1419)
 
