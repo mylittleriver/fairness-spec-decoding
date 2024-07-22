@@ -188,4 +188,18 @@ After finetuning both models on ag_news for 1 epoch:
 
 ![image](https://github.com/user-attachments/assets/768e4355-1f89-4eeb-a46b-a473336b294b)
 
+![image](https://github.com/user-attachments/assets/26ad769d-a38a-4d42-ae25-0a137863624d)
+
+![image](https://github.com/user-attachments/assets/7065d514-2ce2-4fb2-87a5-6b6fa09e1419)
+
+![image](https://github.com/user-attachments/assets/f7393076-1c43-4814-b907-22ea902db97b)
+
+![image](https://github.com/user-attachments/assets/1cee0213-028e-4a02-8059-54de39b20adf)
+
+![image](https://github.com/user-attachments/assets/e27dd794-09d6-4682-b826-3994908efee9)
+
+![image](https://github.com/user-attachments/assets/025df1f0-e0de-4c58-91cb-cc0021c61432)
+
+![image](https://github.com/user-attachments/assets/37cd2764-8fb7-4478-b564-5ea7b47c903e)
+
 
