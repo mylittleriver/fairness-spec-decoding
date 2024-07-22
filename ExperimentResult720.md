@@ -161,5 +161,25 @@ Below shows the distribution of likelihood difference of all groups using gpt2/d
     <br>
 </center>
 
+<center>
+    <img style="border-radius: 0.3125em;
+    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
+    src="https://github.com/user-attachments/assets/5faf467f-0a8c-433c-8a94-7c477d0679ff" width = "48%" alt=""/>
+    <img style="border-radius: 0.3125em;
+    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
+    src="https://github.com/user-attachments/assets/86bd6db8-f03e-473a-b269-05cf82065938" width = "48%" alt=""/>
+    <br>
+</center>
 
-![image](https://github.com/user-attachments/assets/86bd6db8-f03e-473a-b269-05cf82065938)
+
+<center>
+    <img style="border-radius: 0.3125em;
+    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
+    src="https://github.com/user-attachments/assets/aa95d814-e2bd-4544-be5e-cd3c2972a9ff" width = "48%" alt=""/>
+    <img style="border-radius: 0.3125em;
+    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
+    src="https://github.com/user-attachments/assets/595a227b-7417-44b8-9f73-ba0ff0f64aee" width = "48%" alt=""/>
+    <br>
+</center>
+
+
