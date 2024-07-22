@@ -148,7 +148,7 @@ The likelihood difference distribution is shown below:
 
 This experiment is conducted using gpt2/distilgpt2, and temperature is set to 1e-9. Therefore, the p_i from the main model will only be 0 or 1. If p_i=0, the likelihood difference would be -q_i, and it rejects with probability 1-p_i/q_i, which is 1, so the token is rejected. If p_i=1, the likelihood difference would be 1-q_i, and p_i>q_i, so the token is accepted. Compared to the case where temperature is the default value 1, even when p_i<q_i, the token can be accepted with probability p_i/q_i.
 
-The left shows the distribution of likelihood difference of all groups without finetuning, and the right shows the distribution after finetuning both models on ag_news for 1 epoch:
+The left shows the distribution of likelihood difference for each group without finetuning, and the right shows the distribution after finetuning both models on ag_news for 1 epoch:
 
 <center>
     <img style="border-radius: 0.3125em;
