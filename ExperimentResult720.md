@@ -1,14 +1,17 @@
 ## Experiment Result
 
 The experiments are conducted using EleutherAI/gpt-neo-1.3B as the main model, EleutherAI/gpt-neo-125M as the assistant model, and temperature is set to 1e-9 to make the model more deterministic.
- 
+
+<span style="color:red">What do you mean by *more deterministic*? Wouldn't it make more sense to just set it to 0 to ensure the the model is indeed deterministic and that the chosen token corresponds to the argmax of $P_{x_t|x_{<t}}$? </span>.
 ### Question
 
 **The reason for the reduce of toxicity after finetuning the model on random datasets may be that the gpt2 model has inherent biases, so we need to use different models other than gpt2. May consider EleutherAI/gpt-neo-1.3B and EleutherAI/gpt-neo-125M. Also, we need to finetune the main and assistant models on two different datasets, and then finetune them on the same datasets and re-conduct the experiments.**
 
 After finetuning the gpt-neo-1.3B and gpt-neo-125M on sst2 and wikitext respectively, and then finetuning the two models on the third dataset imdb, the disparity in terms of n_matches/max new tokens still exist, and the ratio doesn't increase much (average ratio for all groups: 0.505 w/o finetuning on imdb, 0.49 w/ finetuning on imdb). In contrast, finetuning gpt2/distillgpt2 on ag_news reduced the disparity and increased the ratio (average ratio: 0.47 w/o finetuning, 0.72 w/ finetuning).
 
+<span style="color:red">What can we conclude from this? There is already some research on the topic of task ordering, i.e. when the finetuning is performed for the same models and same datasets but in different orders. Could it be the case that here the observed phenomenon depends on the task ordering? What happens if we change the ordering of the finetuning steps?</span>.
 
+<span style="color:red">"In contrast, finetuning gpt2/distillgpt2 on ag_news reduced the disparity and increased the ratio (average ratio: 0.47 w/o finetuning, 0.72 w/ finetuning)": how does this relate to the previous experiment? What can you conclude from this?</span>
 
  <center>
     <img style="border-radius: 0.3125em;
@@ -38,7 +41,7 @@ After finetuning the gpt-neo-1.3B and gpt-neo-125M on sst2 and wikitext respecti
 
 After finetuning the gpt-neo-1.3B and gpt-neo-125M on sst2 and wikitext for 1 epoch respectively, the number of toxic completions is 186, and after a second finetuning on imdb for both models for 1 epoch, the number becomes 229, thus the toxicity has increased. However for the gpt2/distilgpt2 pair, the toxicity decreased after finetuning on ag_news.
 
-
+<span style="color:red">"I do not understand what can be observed by changing both dataset and models across experiments. Usually you keep one variable fixed and change the other. I also think that since it is a matter of memorization or, if you want, domain adaptation, we should be in control of the finetuning domain, creating for instance unbiased finetuning datasets with counterfactuals. Maybe I have not understood your reasoning here, but what are you actually trying to show?</span>
  <center>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
@@ -60,6 +63,7 @@ Toxicity also includes sexualized references. Always explain why a statement is 
 Below shows the overall KL divergence distribution using the completions done by gpt2/distilgp2 independently. The major distribution difference between the four cases is that the count of the KL value without fine-tuning is less than those fine-tuned in the range 0-4.1, and more than those fine-tuned in the range 4.1-7.3 approximately. 
 ![image](https://github.com/user-attachments/assets/12ac592c-897d-49a0-a576-0a679bc16140)
 
+<span style="color:red">So the more you finetune the two models the more they get close in KL over the whole dataset? Right?</span>
 
 Since the toxicity increased in the neo-1.3B/neo-125M experiment, I also plotted for the samples whose completion goes from being non toxic to toxic, and those who stayed toxic. I've plotted for the groups female and male so far. The distribution difference is that the KL value is generally smaller for the case with finetuning on the third dataset imdb.
 
@@ -94,13 +98,7 @@ Since the toxicity increased in the neo-1.3B/neo-125M experiment, I also plotted
     <br>
 </center>
 
+<span style="color:red">I am not sure I understand here. What question are you trying to answer? </span>
 
 
-
-
-
-
-
-
-
-
+<span style="color:red">What was important was also to see how the likelihood ration changes before/after the finetuning, as we have discussed a couple of times. I have not found anything about that.</span>
