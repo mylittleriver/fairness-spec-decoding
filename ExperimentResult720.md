@@ -144,15 +144,22 @@ Below shows the distribution of likelihood difference of all groups using gpt2/d
 <center>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="https://github.com/user-attachments/assets/d2ee1c05-d77f-4446-9abe-6ad11ec0e19d" width = "48%" alt=""/>
+    src="https://github.com/user-attachments/assets/c477604b-7de4-47ef-9b39-8ba098f5bbd7" width = "48%" alt=""/>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="https://github.com/user-attachments/assets/afc293bf-6a05-45cb-8e7e-6ee2e6503b9f" width = "48%" alt=""/>
+    src="https://github.com/user-attachments/assets/d75c4b14-799f-4871-b94a-f5e0d44a13cf" width = "48%" alt=""/>
     <br>
 </center>
 
+<center>
+    <img style="border-radius: 0.3125em;
+    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
+    src="https://github.com/user-attachments/assets/43d1d56e-01b2-486f-b3e6-cb20470f50a6" width = "48%" alt=""/>
+    <img style="border-radius: 0.3125em;
+    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
+    src="https://github.com/user-attachments/assets/e784e2ad-2653-498e-8922-6f8a7edb700e" width = "48%" alt=""/>
+    <br>
+</center>
 
-![image](https://github.com/user-attachments/assets/c477604b-7de4-47ef-9b39-8ba098f5bbd7)
-![image](https://github.com/user-attachments/assets/d75c4b14-799f-4871-b94a-f5e0d44a13cf)
 
 ![image](https://github.com/user-attachments/assets/86bd6db8-f03e-473a-b269-05cf82065938)
