@@ -128,6 +128,9 @@ Since the toxicity increased in the neo-1.3B/neo-125M experiment, I also plotted
 
 This is to investigate the distribution of KL **in terms of different groups**, instead of the overall KL of all groups, and also **for the samples whose completion goes from being toxic to non toxic after fine tuning**. But since in the experiment with neo-1.3B/neo-125M the toxicity increased after finetuning, I also plotted for **the samples whose completion goes from being non toxic to toxic after fine tuning**, and those **stayed toxicity (toxic to toxic)**. 
 
+***
+
+
 ### Comment
 <span style="color:red">What was important was also to see how the likelihood ration changes before/after the finetuning, as we have discussed a couple of times. I have not found anything about that.</span>
 
