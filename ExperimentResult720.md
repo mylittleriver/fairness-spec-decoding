@@ -189,7 +189,6 @@ After finetuning both models on ag_news for 1 epoch:
 
 
 queer gender 
-https://github.com/user-attachments/assets/e784e2ad-2653-498e-8922-6f8a7edb700e
 
 
 <center>
@@ -201,6 +200,17 @@ https://github.com/user-attachments/assets/e784e2ad-2653-498e-8922-6f8a7edb700e
     src="https://github.com/user-attachments/assets/f7393076-1c43-4814-b907-22ea902db97b" width = "48%" alt=""/>
     <br>
 </center>
+
+<center>
+    <img style="border-radius: 0.3125em;
+    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
+    src="https://github.com/user-attachments/assets/e784e2ad-2653-498e-8922-6f8a7edb700e" width = "48%" alt=""/>
+    <img style="border-radius: 0.3125em;
+    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
+    src="https://github.com/user-attachments/assets/e27dd794-09d6-4682-b826-3994908efee9" width = "48%" alt=""/>
+    <br>
+</center>
+
 
 
 queer orientation
@@ -233,7 +243,7 @@ https://github.com/user-attachments/assets/86bd6db8-f03e-473a-b269-05cf82065938
 
 ![image](https://github.com/user-attachments/assets/1cee0213-028e-4a02-8059-54de39b20adf)
 
-![image](https://github.com/user-attachments/assets/e27dd794-09d6-4682-b826-3994908efee9)
+![image]()
 
 ![image](https://github.com/user-attachments/assets/025df1f0-e0de-4c58-91cb-cc0021c61432)
 
