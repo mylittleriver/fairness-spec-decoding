@@ -160,7 +160,7 @@ The left shows the distribution of likelihood difference of all groups without f
     <br>
 </center>
 
-For female, the distribution of likelihood difference for rejected tokens doesn't change much after finetuning. However, for accepted tokens, the count has increased for the likelihood difference around 7.5
+For female, the distribution of likelihood difference for rejected tokens doesn't change much after finetuning. However, for accepted tokens, the count has decreased for the likelihood difference around 7.5, and increased for that around 10.
 
 <center>
     <img style="border-radius: 0.3125em;
