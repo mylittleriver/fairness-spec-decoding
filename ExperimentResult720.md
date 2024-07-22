@@ -198,10 +198,13 @@ https://github.com/user-attachments/assets/e784e2ad-2653-498e-8922-6f8a7edb700e
     src="https://github.com/user-attachments/assets/5faf467f-0a8c-433c-8a94-7c477d0679ff" width = "48%" alt=""/>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="https://github.com/user-attachments/assets/86bd6db8-f03e-473a-b269-05cf82065938" width = "48%" alt=""/>
+    src="https://github.com/user-attachments/assets/f7393076-1c43-4814-b907-22ea902db97b" width = "48%" alt=""/>
     <br>
 </center>
 
+
+queer orientation
+https://github.com/user-attachments/assets/86bd6db8-f03e-473a-b269-05cf82065938
 
 <center>
     <img style="border-radius: 0.3125em;
@@ -226,7 +229,7 @@ https://github.com/user-attachments/assets/e784e2ad-2653-498e-8922-6f8a7edb700e
 
 ![image]()
 
-![image](https://github.com/user-attachments/assets/f7393076-1c43-4814-b907-22ea902db97b)
+![image]()
 
 ![image](https://github.com/user-attachments/assets/1cee0213-028e-4a02-8059-54de39b20adf)
 
