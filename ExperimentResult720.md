@@ -129,7 +129,7 @@ The likelihood difference distribution is shown below:
 ### Question
 **Investigate the distribution of likelihood difference (p_i-q_i) in terms of different groups of interest (male, female, etc)**
 
-Below shows the distribution of likelihood difference of all groups using gpt2/distilgpt2 without finetuning.
+Below shows the distribution of likelihood difference of all groups using gpt2/distilgpt2 without finetuning:
 
 <center>
     <img style="border-radius: 0.3125em;
@@ -181,5 +181,11 @@ Below shows the distribution of likelihood difference of all groups using gpt2/d
     src="https://github.com/user-attachments/assets/595a227b-7417-44b8-9f73-ba0ff0f64aee" width = "48%" alt=""/>
     <br>
 </center>
+
+After finetuning both models on ag_news for 1 epoch:
+
+![image](https://github.com/user-attachments/assets/14319528-849b-4e7d-8590-46f8f638dfaa)
+
+![image](https://github.com/user-attachments/assets/768e4355-1f89-4eeb-a46b-a473336b294b)
 
 
