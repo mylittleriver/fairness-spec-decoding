@@ -3,6 +3,15 @@
 The experiments are conducted using EleutherAI/gpt-neo-1.3B as the main model, EleutherAI/gpt-neo-125M as the assistant model, and temperature is set to 1e-9 to make the model more deterministic.
 
 <span style="color:red">What do you mean by *more deterministic*? Wouldn't it make more sense to just set it to 0 to ensure the the model is indeed deterministic and that the chosen token corresponds to the argmax of $P_{x_t|x_{<t}}$? </span>.
+
+Since it occurs error when setting temperature=0 when calling the model.generate() function, I'm not sure if I can change the function to achieve temperature=0.
+<img width="794" alt="f3bc99f6201558a14757bdc940a658c" src="https://github.com/user-attachments/assets/844eb026-38bb-415f-9fd1-bc17848043e1">
+However, setting temperature=1e-9 makes p_i to be only 0 or 1, so I guess it should have been more deterministic for the main model, for example:
+![image](https://github.com/user-attachments/assets/ed95aeeb-4093-4630-bcf9-95efd3616a6b)
+
+
+
+
 ### Question
 
 **The reason for the reduce of toxicity after finetuning the model on random datasets may be that the gpt2 model has inherent biases, so we need to use different models other than gpt2. May consider EleutherAI/gpt-neo-1.3B and EleutherAI/gpt-neo-125M. Also, we need to finetune the main and assistant models on two different datasets, and then finetune them on the same datasets and re-conduct the experiments.**
