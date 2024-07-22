@@ -46,6 +46,7 @@ After finetuning the gpt-neo-1.3B and gpt-neo-125M on sst2 and wikitext respecti
     <br>
     
 </center>
+
 ### Explanation
 
 In the experiment with gpt-neo-1.3B/gpt-neo-125M, the ratio for the group nonqueer_orientation is relatively higher in the three cases. 
