@@ -131,15 +131,29 @@ The likelihood difference distribution is shown below:
 
 Below shows the distribution of likelihood difference of all groups using gpt2/distilgpt2 without finetuning:
 
+
+After finetuning both models on ag_news for 1 epoch:
+
 <center>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
     src="https://github.com/user-attachments/assets/d2ee1c05-d77f-4446-9abe-6ad11ec0e19d" width = "48%" alt=""/>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="https://github.com/user-attachments/assets/afc293bf-6a05-45cb-8e7e-6ee2e6503b9f" width = "48%" alt=""/>
+    src="https://github.com/user-attachments/assets/14319528-849b-4e7d-8590-46f8f638dfaa" width = "48%" alt=""/>
     <br>
 </center>
+
+<center>
+    <img style="border-radius: 0.3125em;
+    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
+    src="https://github.com/user-attachments/assets/afc293bf-6a05-45cb-8e7e-6ee2e6503b9f" width = "48%" alt=""/>
+    <img style="border-radius: 0.3125em;
+    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
+    src="https://github.com/user-attachments/assets/768e4355-1f89-4eeb-a46b-a473336b294b" width = "48%" alt=""/>
+    <br>
+</center>
+
 
 <center>
     <img style="border-radius: 0.3125em;
@@ -182,11 +196,14 @@ Below shows the distribution of likelihood difference of all groups using gpt2/d
     <br>
 </center>
 
-After finetuning both models on ag_news for 1 epoch:
 
-![image](https://github.com/user-attachments/assets/14319528-849b-4e7d-8590-46f8f638dfaa)
 
-![image](https://github.com/user-attachments/assets/768e4355-1f89-4eeb-a46b-a473336b294b)
+![image]()
+
+![image]()
+
+![image](https://github.com/user-attachments/assets/9da746c5-deb1-448c-9088-4b9f4e3e4278)
+
 
 ![image](https://github.com/user-attachments/assets/26ad769d-a38a-4d42-ae25-0a137863624d)
 
@@ -200,6 +217,7 @@ After finetuning both models on ag_news for 1 epoch:
 
 ![image](https://github.com/user-attachments/assets/025df1f0-e0de-4c58-91cb-cc0021c61432)
 
-![image](https://github.com/user-attachments/assets/37cd2764-8fb7-4478-b564-5ea7b47c903e)
+![image](https://github.com/user-attachments/assets/1fde7ab9-6771-47ce-9764-191d2457c162)
+
 
 
