@@ -6,6 +6,8 @@ The experiments are conducted using EleutherAI/gpt-neo-1.3B as the main model, E
 
 <span style="color:red">What do you mean by *more deterministic*? Wouldn't it make more sense to just set it to 0 to ensure the the model is indeed deterministic and that the chosen token corresponds to the argmax of $P_{x_t|x_{<t}}$? </span>.
 
+### Explanation
+
 Since it occurs error when setting temperature=0 when calling the model.generate() function, I'm not sure if I can change the function to achieve temperature=0.
 
 <img width="794" alt="f3bc99f6201558a14757bdc940a658c" src="https://github.com/user-attachments/assets/844eb026-38bb-415f-9fd1-bc17848043e1">
@@ -22,6 +24,8 @@ However, setting temperature=1e-9 makes p_i to be only 0 or 1, so I guess it sho
 **The reason for the reduce of toxicity after finetuning the model on random datasets may be that the gpt2 model has inherent biases, so we need to use different models other than gpt2. May consider EleutherAI/gpt-neo-1.3B and EleutherAI/gpt-neo-125M. Also, we need to finetune the main and assistant models on two different datasets, and then finetune them on the same datasets and re-conduct the experiments.**
 
 After finetuning the gpt-neo-1.3B and gpt-neo-125M on sst2 and wikitext respectively, and then finetuning the two models on the third dataset imdb, the disparity in terms of n_matches/max new tokens still exist, and the ratio doesn't increase much (average ratio for all groups: 0.505 w/o finetuning on imdb, 0.49 w/ finetuning on imdb). In contrast, finetuning gpt2/distillgpt2 on ag_news reduced the disparity and increased the ratio (average ratio: 0.47 w/o finetuning, 0.72 w/ finetuning).
+
+### Comment
 
 <span style="color:red">What can we conclude from this? There is already some research on the topic of task ordering, i.e. when the finetuning is performed for the same models and same datasets but in different orders. Could it be the case that here the observed phenomenon depends on the task ordering? What happens if we change the ordering of the finetuning steps?</span>.
 
@@ -55,6 +59,7 @@ After finetuning the gpt-neo-1.3B and gpt-neo-125M on sst2 and wikitext respecti
 
 After finetuning the gpt-neo-1.3B and gpt-neo-125M on sst2 and wikitext for 1 epoch respectively, the number of toxic completions is 186, and after a second finetuning on imdb for both models for 1 epoch, the number becomes 229, thus the toxicity has increased. However for the gpt2/distilgpt2 pair, the toxicity decreased after finetuning on ag_news.
 
+### Comment
 <span style="color:red">"I do not understand what can be observed by changing both dataset and models across experiments. Usually you keep one variable fixed and change the other. I also think that since it is a matter of memorization or, if you want, domain adaptation, we should be in control of the finetuning domain, creating for instance unbiased finetuning datasets with counterfactuals. Maybe I have not understood your reasoning here, but what are you actually trying to show?</span>
  <center>
     <img style="border-radius: 0.3125em;
@@ -114,5 +119,40 @@ Since the toxicity increased in the neo-1.3B/neo-125M experiment, I also plotted
 
 <span style="color:red">I am not sure I understand here. What question are you trying to answer? </span>
 
-
+### Comment
 <span style="color:red">What was important was also to see how the likelihood ration changes before/after the finetuning, as we have discussed a couple of times. I have not found anything about that.</span>
+
+### Explanation
+
+The likelihood difference distribution is shown below:
+
+### Question
+**Investigate the distribution of likelihood difference (p_i-q_i) in terms of different groups of interest (male, female, etc)**
+
+Below shows the distribution of likelihood difference of all groups using gpt2/distilgpt2 without finetuning.
+
+<center>
+    <img style="border-radius: 0.3125em;
+    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
+    src="https://github.com/user-attachments/assets/d2ee1c05-d77f-4446-9abe-6ad11ec0e19d" width = "48%" alt=""/>
+    <img style="border-radius: 0.3125em;
+    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
+    src="https://github.com/user-attachments/assets/afc293bf-6a05-45cb-8e7e-6ee2e6503b9f" width = "48%" alt=""/>
+    <br>
+</center>
+
+<center>
+    <img style="border-radius: 0.3125em;
+    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
+    src="https://github.com/user-attachments/assets/d2ee1c05-d77f-4446-9abe-6ad11ec0e19d" width = "48%" alt=""/>
+    <img style="border-radius: 0.3125em;
+    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
+    src="https://github.com/user-attachments/assets/afc293bf-6a05-45cb-8e7e-6ee2e6503b9f" width = "48%" alt=""/>
+    <br>
+</center>
+
+
+![image](https://github.com/user-attachments/assets/c477604b-7de4-47ef-9b39-8ba098f5bbd7)
+![image](https://github.com/user-attachments/assets/d75c4b14-799f-4871-b94a-f5e0d44a13cf)
+
+![image](https://github.com/user-attachments/assets/86bd6db8-f03e-473a-b269-05cf82065938)
