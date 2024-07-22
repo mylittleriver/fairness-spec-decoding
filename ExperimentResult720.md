@@ -82,7 +82,10 @@ Toxicity also includes sexualized references. Always explain why a statement is 
 Below shows the overall KL divergence distribution using the completions done by gpt2/distilgp2 independently. The major distribution difference between the four cases is that the count of the KL value without fine-tuning is less than those fine-tuned in the range 0-4.1, and more than those fine-tuned in the range 4.1-7.3 approximately. 
 ![image](https://github.com/user-attachments/assets/12ac592c-897d-49a0-a576-0a679bc16140)
 
+### Comment
 <span style="color:red">So the more you finetune the two models the more they get close in KL over the whole dataset? Right?</span>
+
+***
 
 Since the toxicity increased in the neo-1.3B/neo-125M experiment, I also plotted for the samples whose completion goes from being non toxic to toxic, and those who stayed toxic. I've plotted for the groups female and male so far. The distribution difference is that the KL value is generally smaller for the case with finetuning on the third dataset imdb.
 
