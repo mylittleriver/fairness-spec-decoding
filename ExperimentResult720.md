@@ -188,7 +188,6 @@ After finetuning both models on ag_news for 1 epoch:
 </center>
 
 
-queer gender 
 
 
 <center>
@@ -214,7 +213,19 @@ queer gender
 
 
 queer orientation
-https://github.com/user-attachments/assets/86bd6db8-f03e-473a-b269-05cf82065938
+
+
+
+<center>
+    <img style="border-radius: 0.3125em;
+    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
+    src="https://github.com/user-attachments/assets/86bd6db8-f03e-473a-b269-05cf82065938" width = "48%" alt=""/>
+    <img style="border-radius: 0.3125em;
+    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
+    src="https://github.com/user-attachments/assets/1cee0213-028e-4a02-8059-54de39b20adf" width = "48%" alt=""/>
+    <br>
+</center>
+
 
 <center>
     <img style="border-radius: 0.3125em;
@@ -241,7 +252,7 @@ https://github.com/user-attachments/assets/86bd6db8-f03e-473a-b269-05cf82065938
 
 ![image]()
 
-![image](https://github.com/user-attachments/assets/1cee0213-028e-4a02-8059-54de39b20adf)
+![image]()
 
 ![image]()
 
