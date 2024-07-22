@@ -34,10 +34,13 @@ After finetuning the gpt-neo-1.3B and gpt-neo-125M on sst2 and wikitext respecti
  <center>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="https://github.com/user-attachments/assets/6a1f524c-4c79-400d-8516-06242480b9e5" width = "48%" alt=""/>
+    src="https://github.com/user-attachments/assets/75dd7d3d-9727-44b7-aac9-5edd59698717" width = "32%" alt=""/>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="https://github.com/user-attachments/assets/70d71649-a1f4-42aa-b3f1-58ddee3b3340" width = "48%" alt=""/>
+    src="https://github.com/user-attachments/assets/6a1f524c-4c79-400d-8516-06242480b9e5" width = "32%" alt=""/>
+    <img style="border-radius: 0.3125em;
+    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
+    src="https://github.com/user-attachments/assets/70d71649-a1f4-42aa-b3f1-58ddee3b3340" width = "32%" alt=""/>
     <br>
     
 </center>
