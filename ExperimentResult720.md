@@ -29,7 +29,9 @@ After finetuning the gpt-neo-1.3B and gpt-neo-125M on sst2 and wikitext respecti
 
 <span style="color:red">What can we conclude from this? There is already some research on the topic of task ordering, i.e. when the finetuning is performed for the same models and same datasets but in different orders. Could it be the case that here the observed phenomenon depends on the task ordering? What happens if we change the ordering of the finetuning steps?</span>.
 
+
 <span style="color:red">"In contrast, finetuning gpt2/distillgpt2 on ag_news reduced the disparity and increased the ratio (average ratio: 0.47 w/o finetuning, 0.72 w/ finetuning)": how does this relate to the previous experiment? What can you conclude from this?</span>
+
 
  <center>
     <img style="border-radius: 0.3125em;
@@ -44,7 +46,11 @@ After finetuning the gpt-neo-1.3B and gpt-neo-125M on sst2 and wikitext respecti
     <br>
     
 </center>
-<br>
+
+### Explanation
+
+In the experiment with gpt-neo-1.3B/gpt-neo-125M, the ratio of the group nonqueer_orientation is relatively higher in the three cases. 
+
 
  <center>
     <img style="border-radius: 0.3125em;
