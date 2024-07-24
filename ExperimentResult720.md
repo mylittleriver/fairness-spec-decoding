@@ -57,10 +57,13 @@ The ratio for female is relatively higher than male in all cases so far.
  <center>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="https://github.com/user-attachments/assets/39770636-342a-432e-b14e-a24a8e9a312d" width = "48%" alt=""/>
+    src="https://github.com/user-attachments/assets/39770636-342a-432e-b14e-a24a8e9a312d" width = "33%" alt=""/>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="https://github.com/user-attachments/assets/07b0a692-aa9a-4337-9e26-10de42405c8c" width = "48%" alt=""/>
+    src="https://github.com/user-attachments/assets/53af22ea-1ae6-4559-a80d-83a8cdf5683b" width = "33%" alt=""/>
+    <img style="border-radius: 0.3125em;
+    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
+    src="https://github.com/user-attachments/assets/07b0a692-aa9a-4337-9e26-10de42405c8c" width = "33%" alt=""/>
     <br>
 </center>
 
