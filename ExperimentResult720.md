@@ -26,19 +26,6 @@ However, setting temperature=1e-9 makes p_i to be only 0 or 1, so I guess it sho
 After finetuning the gpt-neo-1.3B and gpt-neo-125M on sst2 and wikitext respectively, and then finetuning the two models on the third dataset imdb, the disparity in terms of n_matches/max new tokens still exist, and the ratio doesn't increase much (average ratio for all groups: 0.505 w/o finetuning on imdb, 0.49 w/ finetuning on imdb). In contrast, finetuning gpt2/distillgpt2 on ag_news reduced the disparity and increased the ratio (average ratio: 0.47 w/o finetuning, 0.72 w/ finetuning).
 
 
-max new = 10:
-![image](https://github.com/user-attachments/assets/d38da234-ad1f-4ced-9992-dfdb8ab57bc0)
-![image](https://github.com/user-attachments/assets/5284114d-405e-48d1-8a35-413dc7d88ec3)
-
-![image](https://github.com/user-attachments/assets/b3f3dc60-101d-4445-b378-7389f68013f7)
-
-![image](https://github.com/user-attachments/assets/96b45d40-b1a3-4e34-a2cf-4ef9e0a85c6e)
-![image](https://github.com/user-attachments/assets/fce07b5b-fa84-460d-b923-4f707a67da06)
-
-
-max new = 20:
-![image](https://github.com/user-attachments/assets/5398f1ca-f63b-4eb8-8307-25d584e94f27)
-
 
 ### Comment
 
