@@ -32,6 +32,8 @@ After finetuning the gpt-neo-1.3B and gpt-neo-125M on sst2 and wikitext respecti
 
 <span style="color:red">"In contrast, finetuning gpt2/distillgpt2 on ag_news reduced the disparity and increased the ratio (average ratio: 0.47 w/o finetuning, 0.72 w/ finetuning)": how does this relate to the previous experiment? What can you conclude from this?</span>
 
+max new = 10:
+![image](https://github.com/user-attachments/assets/d38da234-ad1f-4ced-9992-dfdb8ab57bc0)
 
  <center>
     <img style="border-radius: 0.3125em;
