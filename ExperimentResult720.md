@@ -34,7 +34,7 @@ max new = 10:
 ![image](https://github.com/user-attachments/assets/96b45d40-b1a3-4e34-a2cf-4ef9e0a85c6e)
 
 max new = 20:
-![Uploading image.png…]()
+![image](https://github.com/user-attachments/assets/5398f1ca-f63b-4eb8-8307-25d584e94f27)
 
 
 ### Comment
