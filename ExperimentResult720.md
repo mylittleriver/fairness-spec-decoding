@@ -28,10 +28,10 @@ After finetuning the gpt-neo-1.3B and gpt-neo-125M on sst2 and wikitext respecti
 
 max new = 10:
 ![image](https://github.com/user-attachments/assets/d38da234-ad1f-4ced-9992-dfdb8ab57bc0)
-![image](https://github.com/user-attachments/assets/96b45d40-b1a3-4e34-a2cf-4ef9e0a85c6e)
+
 ![image](https://github.com/user-attachments/assets/b3f3dc60-101d-4445-b378-7389f68013f7)
 ![image](https://github.com/user-attachments/assets/5aa9e861-a77b-4322-a775-be90b543c8ff)
-
+![image](https://github.com/user-attachments/assets/96b45d40-b1a3-4e34-a2cf-4ef9e0a85c6e)
 
 
 ### Comment
