@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/c56122a2-020b-44fc-af06-49c8b96db896)## Experiment Result
+## Experiment Result
 
 The experiments are conducted using EleutherAI/gpt-neo-1.3B as the main model, EleutherAI/gpt-neo-125M as the assistant model, and temperature is set to 1e-9 to make the model more deterministic.
 
