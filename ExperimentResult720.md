@@ -173,11 +173,10 @@ This experiment is conducted using gpt2/distilgpt2, and temperature is set to 1e
 The left shows the distribution of likelihood difference for each group without finetuning, and the right shows the distribution after finetuning both models on ag_news for 1 epoch:
 
 
-
 <center>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="https://github.com/user-attachments/assets/5130d5b4-c027-46bb-9927-baf793d64ea4" width = "48%" alt=""/>
+    src="https://github.com/user-attachments/assets/ea39c172-e24e-49a8-ae41-a2a3727e72dd" width = "48%" alt=""/>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
     src="https://github.com/user-attachments/assets/9891ca85-5268-45da-b0e2-a8a21e5874d0" width = "48%" alt=""/>
