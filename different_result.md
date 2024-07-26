@@ -4,7 +4,13 @@ max new = 10:
 
 ![image](https://github.com/user-attachments/assets/b3f3dc60-101d-4445-b378-7389f68013f7)
 
+openai-community/gpt2:
 ![image](https://github.com/user-attachments/assets/96b45d40-b1a3-4e34-a2cf-4ef9e0a85c6e)
+
+gpt2:
+![image](https://github.com/user-attachments/assets/454f2813-e2c2-48ab-b720-3d2a784537bf)
+
+
 ![image](https://github.com/user-attachments/assets/fce07b5b-fa84-460d-b923-4f707a67da06)
 
 
