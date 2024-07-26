@@ -242,11 +242,10 @@ For female, the distribution of likelihood difference for rejected tokens doesn'
 </center>
 
 
-
 <center>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="https://github.com/user-attachments/assets/fcf38fbb-da6e-489a-9001-1a008f6fd041" width = "48%" alt=""/>
+    src="https://github.com/user-attachments/assets/2f3ec776-840a-41ba-abb5-b8fa84c32545" width = "48%" alt=""/>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
     src="https://github.com/user-attachments/assets/f4d11975-a21d-48fb-9990-ef10ddb04f45" width = "48%" alt=""/>
