@@ -178,7 +178,7 @@ The left shows the distribution of likelihood difference for each group without 
     src="https://github.com/user-attachments/assets/5130d5b4-c027-46bb-9927-baf793d64ea4" width = "48%" alt=""/>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="https://github.com/user-attachments/assets/14319528-849b-4e7d-8590-46f8f638dfaa" width = "48%" alt=""/>
+    src="https://github.com/user-attachments/assets/b9a739d1-eafd-43db-ab5a-67c4bfeb87fd" width = "48%" alt=""/>
     <br>
 </center>
 
