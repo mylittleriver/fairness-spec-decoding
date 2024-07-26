@@ -222,23 +222,22 @@ For female, the distribution of likelihood difference for rejected tokens doesn'
 <center>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="https://github.com/user-attachments/assets/17ab4d8f-9cf1-431a-b686-e4275d4b42d6" width = "48%" alt=""/>
+    src="https://github.com/user-attachments/assets/1c7030bb-90e5-4856-b1d6-9b9dbfe8b63e" width = "48%" alt=""/>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="https://github.com/user-attachments/assets/7065d514-2ce2-4fb2-87a5-6b6fa09e1419" width = "48%" alt=""/>
+    src="https://github.com/user-attachments/assets/5b31732f-d1c6-445d-8571-ddcb9cf1bf20" width = "48%" alt=""/>
     <br>
 </center>
-
 
 
 
 <center>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="https://github.com/user-attachments/assets/d9428768-f560-47b2-aea2-9d3b2b454fab" width = "48%" alt=""/>
+    src="https://github.com/user-attachments/assets/48b6ae96-6e79-45dc-9ddd-558790d7b38b" width = "48%" alt=""/>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="https://github.com/user-attachments/assets/f7393076-1c43-4814-b907-22ea902db97b" width = "48%" alt=""/>
+    src="https://github.com/user-attachments/assets/a4952f95-4f3d-4a3a-bda5-b667fdbaf89d" width = "48%" alt=""/>
     <br>
 </center>
 
