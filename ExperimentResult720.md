@@ -175,7 +175,7 @@ The left shows the distribution of likelihood difference for each group without 
 <center>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="https://github.com/user-attachments/assets/d2ee1c05-d77f-4446-9abe-6ad11ec0e19d" width = "48%" alt=""/>
+    src="https://github.com/user-attachments/assets/5130d5b4-c027-46bb-9927-baf793d64ea4" width = "48%" alt=""/>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
     src="https://github.com/user-attachments/assets/14319528-849b-4e7d-8590-46f8f638dfaa" width = "48%" alt=""/>
@@ -184,10 +184,11 @@ The left shows the distribution of likelihood difference for each group without 
 
 For female, the distribution of likelihood difference for rejected tokens doesn't change much after finetuning. However, for accepted tokens, the count has decreased for the likelihood difference around 7.5, and increased for that around 10.
 
+
 <center>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="https://github.com/user-attachments/assets/afc293bf-6a05-45cb-8e7e-6ee2e6503b9f" width = "48%" alt=""/>
+    src="https://github.com/user-attachments/assets/011b3065-991b-48d7-a48e-f722c6515b91" width = "48%" alt=""/>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
     src="https://github.com/user-attachments/assets/768e4355-1f89-4eeb-a46b-a473336b294b" width = "48%" alt=""/>
@@ -198,7 +199,7 @@ For female, the distribution of likelihood difference for rejected tokens doesn'
 <center>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="https://github.com/user-attachments/assets/c477604b-7de4-47ef-9b39-8ba098f5bbd7" width = "48%" alt=""/>
+    src="https://github.com/user-attachments/assets/b018ae2c-5c50-45d1-8372-aa93816747e8" width = "48%" alt=""/>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
     src="https://github.com/user-attachments/assets/26ad769d-a38a-4d42-ae25-0a137863624d" width = "48%" alt=""/>
