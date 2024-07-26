@@ -210,7 +210,7 @@ For female, the distribution of likelihood difference for rejected tokens doesn'
 <center>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="https://github.com/user-attachments/assets/d75c4b14-799f-4871-b94a-f5e0d44a13cf" width = "48%" alt=""/>
+    src="https://github.com/user-attachments/assets/99bd3349-24b5-4d59-8a5c-036ab3749ce4" width = "48%" alt=""/>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
     src="https://github.com/user-attachments/assets/9da746c5-deb1-448c-9088-4b9f4e3e4278" width = "48%" alt=""/>
@@ -221,7 +221,7 @@ For female, the distribution of likelihood difference for rejected tokens doesn'
 <center>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="https://github.com/user-attachments/assets/43d1d56e-01b2-486f-b3e6-cb20470f50a6" width = "48%" alt=""/>
+    src="https://github.com/user-attachments/assets/17ab4d8f-9cf1-431a-b686-e4275d4b42d6" width = "48%" alt=""/>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
     src="https://github.com/user-attachments/assets/7065d514-2ce2-4fb2-87a5-6b6fa09e1419" width = "48%" alt=""/>
