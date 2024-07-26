@@ -21,6 +21,8 @@ max new = 20:
 ![image](https://github.com/user-attachments/assets/5398f1ca-f63b-4eb8-8307-25d584e94f27)
 ![image](https://github.com/user-attachments/assets/8f686df7-3a11-482c-b06f-f7ae186cc675)
 
+
+
 max new = 30:
 ![image](https://github.com/user-attachments/assets/f94c8d70-7f6b-44eb-9de8-9a8c38acc143)
 
