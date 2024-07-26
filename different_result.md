@@ -1,8 +1,5 @@
 max new = 10:
-![image](https://github.com/user-attachments/assets/d38da234-ad1f-4ced-9992-dfdb8ab57bc0)
-![image](https://github.com/user-attachments/assets/5284114d-405e-48d1-8a35-413dc7d88ec3)
 
-![image](https://github.com/user-attachments/assets/b3f3dc60-101d-4445-b378-7389f68013f7)
 
 openai-community/gpt2:
 ![image](https://github.com/user-attachments/assets/96b45d40-b1a3-4e34-a2cf-4ef9e0a85c6e)
@@ -35,3 +32,9 @@ max new = 40:
 ![image](https://github.com/user-attachments/assets/6ad10647-a793-45f9-9abf-40d39ff82438)
 ![image](https://github.com/user-attachments/assets/d6b2f347-13be-4d21-9494-1f7b5353147d)
 
+
+neo-1.3B/neo-125M:
+![image](https://github.com/user-attachments/assets/d38da234-ad1f-4ced-9992-dfdb8ab57bc0)
+![image](https://github.com/user-attachments/assets/5284114d-405e-48d1-8a35-413dc7d88ec3)
+
+![image](https://github.com/user-attachments/assets/b3f3dc60-101d-4445-b378-7389f68013f7)
