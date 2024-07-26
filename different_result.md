@@ -15,7 +15,7 @@ gpt2:
 
 
 max new = 20:
-![image](https://github.com/user-attachments/assets/5398f1ca-f63b-4eb8-8307-25d584e94f27)
+
 ![image](https://github.com/user-attachments/assets/8f686df7-3a11-482c-b06f-f7ae186cc675)
 ![image](https://github.com/user-attachments/assets/747d0a51-4222-4bf0-a4af-8229a66e6a91)
 
@@ -34,7 +34,11 @@ max new = 40:
 
 
 neo-1.3B/neo-125M:
+
+max new = 10:
 ![image](https://github.com/user-attachments/assets/d38da234-ad1f-4ced-9992-dfdb8ab57bc0)
 ![image](https://github.com/user-attachments/assets/5284114d-405e-48d1-8a35-413dc7d88ec3)
 
+max new = 20:
+![image](https://github.com/user-attachments/assets/5398f1ca-f63b-4eb8-8307-25d584e94f27)
 ![image](https://github.com/user-attachments/assets/b3f3dc60-101d-4445-b378-7389f68013f7)
