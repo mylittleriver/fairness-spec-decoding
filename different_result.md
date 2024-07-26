@@ -20,6 +20,8 @@ gpt2:
 max new = 20:
 ![image](https://github.com/user-attachments/assets/5398f1ca-f63b-4eb8-8307-25d584e94f27)
 ![image](https://github.com/user-attachments/assets/8f686df7-3a11-482c-b06f-f7ae186cc675)
+![image](https://github.com/user-attachments/assets/747d0a51-4222-4bf0-a4af-8229a66e6a91)
+
 
 
 
