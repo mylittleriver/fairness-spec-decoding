@@ -234,10 +234,34 @@ For female, the distribution of likelihood difference for rejected tokens doesn'
 <center>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="https://github.com/user-attachments/assets/48b6ae96-6e79-45dc-9ddd-558790d7b38b" width = "48%" alt=""/>
+    src="https://github.com/user-attachments/assets/dc5b1fa1-5bf5-402c-93ea-bf32471e8be4" width = "48%" alt=""/>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="https://github.com/user-attachments/assets/a4952f95-4f3d-4a3a-bda5-b667fdbaf89d" width = "48%" alt=""/>
+    src="https://github.com/user-attachments/assets/f56c18b1-fcef-45cf-9f29-1e3d01fd424f" width = "48%" alt=""/>
+    <br>
+</center>
+
+
+
+<center>
+    <img style="border-radius: 0.3125em;
+    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
+    src="https://github.com/user-attachments/assets/fcf38fbb-da6e-489a-9001-1a008f6fd041" width = "48%" alt=""/>
+    <img style="border-radius: 0.3125em;
+    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
+    src="https://github.com/user-attachments/assets/f4d11975-a21d-48fb-9990-ef10ddb04f45" width = "48%" alt=""/>
+    <br>
+</center>
+
+
+
+<center>
+    <img style="border-radius: 0.3125em;
+    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
+    src="https://github.com/user-attachments/assets/55aaa5c7-1516-420f-9f5d-38fad8f27466" width = "48%" alt=""/>
+    <img style="border-radius: 0.3125em;
+    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
+    src="https://github.com/user-attachments/assets/edb64eb1-48c8-456f-b6a2-5db801695c83" width = "48%" alt=""/>
     <br>
 </center>
 
@@ -245,34 +269,10 @@ For female, the distribution of likelihood difference for rejected tokens doesn'
 <center>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="https://github.com/user-attachments/assets/17c2b376-83f6-4fc3-91a5-7d162b2bf4c1" width = "48%" alt=""/>
+    src="https://github.com/user-attachments/assets/16c4439d-6049-4b82-be5b-21ea527630ce" width = "48%" alt=""/>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="https://github.com/user-attachments/assets/e27dd794-09d6-4682-b826-3994908efee9" width = "48%" alt=""/>
-    <br>
-</center>
-
-
-
-
-<center>
-    <img style="border-radius: 0.3125em;
-    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="https://github.com/user-attachments/assets/ed3f48de-e18c-4dd2-bafd-d602578cf715" width = "48%" alt=""/>
-    <img style="border-radius: 0.3125em;
-    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="https://github.com/user-attachments/assets/86bd6db8-f03e-473a-b269-05cf82065938" width = "48%" alt=""/>
-    <br>
-</center>
-
-
-<center>
-    <img style="border-radius: 0.3125em;
-    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="https://github.com/user-attachments/assets/6a51e174-fdaf-42f6-b174-5669c270aeca" width = "48%" alt=""/>
-    <img style="border-radius: 0.3125em;
-    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="https://github.com/user-attachments/assets/025df1f0-e0de-4c58-91cb-cc0021c61432" width = "48%" alt=""/>
+    src="https://github.com/user-attachments/assets/ad2e4fff-faa9-413e-9f55-a72ac6061614" width = "48%" alt=""/>
     <br>
 </center>
 
@@ -283,7 +283,7 @@ For female, the distribution of likelihood difference for rejected tokens doesn'
     src="https://github.com/user-attachments/assets/15e87aa6-c373-4459-ab95-ef64344520f7" width = "48%" alt=""/>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="https://github.com/user-attachments/assets/1fde7ab9-6771-47ce-9764-191d2457c162" width = "48%" alt=""/>
+    src="https://github.com/user-attachments/assets/01e72d85-32b0-4572-814c-693cae055830" width = "48%" alt=""/>
     <br>
 </center>
 
