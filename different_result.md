@@ -33,4 +33,5 @@ max new = 30:
 
 max new = 40:
 ![image](https://github.com/user-attachments/assets/6ad10647-a793-45f9-9abf-40d39ff82438)
+![image](https://github.com/user-attachments/assets/d6b2f347-13be-4d21-9494-1f7b5353147d)
 
