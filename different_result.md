@@ -13,6 +13,9 @@ gpt2:
 
 ![image](https://github.com/user-attachments/assets/fce07b5b-fa84-460d-b923-4f707a67da06)
 
+![image](https://github.com/user-attachments/assets/666cad40-750f-49f9-9acc-d57fc29c295c)
+
+
 
 max new = 20:
 ![image](https://github.com/user-attachments/assets/5398f1ca-f63b-4eb8-8307-25d584e94f27)
