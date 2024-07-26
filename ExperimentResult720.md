@@ -179,7 +179,7 @@ The left shows the distribution of likelihood difference for each group without 
     src="https://github.com/user-attachments/assets/ea39c172-e24e-49a8-ae41-a2a3727e72dd" width = "48%" alt=""/>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="https://github.com/user-attachments/assets/9891ca85-5268-45da-b0e2-a8a21e5874d0" width = "48%" alt=""/>
+    src="https://github.com/user-attachments/assets/6c2034a7-b998-46bb-977b-ec11bcc1f517" width = "48%" alt=""/>
     <br>
 </center>
 
