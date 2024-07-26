@@ -20,3 +20,7 @@ max new = 20:
 
 max new = 30:
 ![image](https://github.com/user-attachments/assets/f94c8d70-7f6b-44eb-9de8-9a8c38acc143)
+
+max new = 40:
+![image](https://github.com/user-attachments/assets/6ad10647-a793-45f9-9abf-40d39ff82438)
+
