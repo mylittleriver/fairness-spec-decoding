@@ -172,13 +172,15 @@ This experiment is conducted using gpt2/distilgpt2, and temperature is set to 1e
 
 The left shows the distribution of likelihood difference for each group without finetuning, and the right shows the distribution after finetuning both models on ag_news for 1 epoch:
 
+
+
 <center>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
     src="https://github.com/user-attachments/assets/5130d5b4-c027-46bb-9927-baf793d64ea4" width = "48%" alt=""/>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="https://github.com/user-attachments/assets/b9a739d1-eafd-43db-ab5a-67c4bfeb87fd" width = "48%" alt=""/>
+    src="https://github.com/user-attachments/assets/9891ca85-5268-45da-b0e2-a8a21e5874d0" width = "48%" alt=""/>
     <br>
 </center>
 
@@ -188,10 +190,10 @@ For female, the distribution of likelihood difference for rejected tokens doesn'
 <center>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="https://github.com/user-attachments/assets/011b3065-991b-48d7-a48e-f722c6515b91" width = "48%" alt=""/>
+    src="https://github.com/user-attachments/assets/e5b888a7-f7f0-4cbf-b5ca-8048ef0aca69" width = "48%" alt=""/>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="https://github.com/user-attachments/assets/768e4355-1f89-4eeb-a46b-a473336b294b" width = "48%" alt=""/>
+    src="https://github.com/user-attachments/assets/0cc87686-e2b8-41ad-9703-bc2973bbdbff" width = "48%" alt=""/>
     <br>
 </center>
 
@@ -199,10 +201,10 @@ For female, the distribution of likelihood difference for rejected tokens doesn'
 <center>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="https://github.com/user-attachments/assets/b018ae2c-5c50-45d1-8372-aa93816747e8" width = "48%" alt=""/>
+    src="https://github.com/user-attachments/assets/80e33f0d-920e-4f91-ac51-bccb9c2eae69" width = "48%" alt=""/>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="https://github.com/user-attachments/assets/26ad769d-a38a-4d42-ae25-0a137863624d" width = "48%" alt=""/>
+    src="https://github.com/user-attachments/assets/d2daece5-5c3d-4b7d-9a65-6f6dddc7fb86" width = "48%" alt=""/>
     <br>
 </center>
 
@@ -210,10 +212,10 @@ For female, the distribution of likelihood difference for rejected tokens doesn'
 <center>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="https://github.com/user-attachments/assets/99bd3349-24b5-4d59-8a5c-036ab3749ce4" width = "48%" alt=""/>
+    src="https://github.com/user-attachments/assets/32172661-c78d-4019-bf3b-e472addefebc" width = "48%" alt=""/>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="https://github.com/user-attachments/assets/9da746c5-deb1-448c-9088-4b9f4e3e4278" width = "48%" alt=""/>
+    src="https://github.com/user-attachments/assets/cafd7da4-c713-4469-a125-a78ec6c533b2" width = "48%" alt=""/>
     <br>
 </center>
 
