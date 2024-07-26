@@ -255,14 +255,13 @@ For female, the distribution of likelihood difference for rejected tokens doesn'
 
 
 
-
 <center>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
     src="https://github.com/user-attachments/assets/86bd6db8-f03e-473a-b269-05cf82065938" width = "48%" alt=""/>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="https://github.com/user-attachments/assets/1cee0213-028e-4a02-8059-54de39b20adf" width = "48%" alt=""/>
+    src="https://github.com/user-attachments/assets/ed3f48de-e18c-4dd2-bafd-d602578cf715" width = "48%" alt=""/>
     <br>
 </center>
 
@@ -270,7 +269,7 @@ For female, the distribution of likelihood difference for rejected tokens doesn'
 <center>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="https://github.com/user-attachments/assets/aa95d814-e2bd-4544-be5e-cd3c2972a9ff" width = "48%" alt=""/>
+    src="https://github.com/user-attachments/assets/6a51e174-fdaf-42f6-b174-5669c270aeca" width = "48%" alt=""/>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
     src="https://github.com/user-attachments/assets/025df1f0-e0de-4c58-91cb-cc0021c61432" width = "48%" alt=""/>
@@ -281,7 +280,7 @@ For female, the distribution of likelihood difference for rejected tokens doesn'
 <center>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="https://github.com/user-attachments/assets/595a227b-7417-44b8-9f73-ba0ff0f64aee" width = "48%" alt=""/>
+    src="https://github.com/user-attachments/assets/15e87aa6-c373-4459-ab95-ef64344520f7" width = "48%" alt=""/>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
     src="https://github.com/user-attachments/assets/1fde7ab9-6771-47ce-9764-191d2457c162" width = "48%" alt=""/>
