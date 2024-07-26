@@ -1,5 +1,7 @@
-max new = 10:
+gpt2/distilgpt2:
 
+
+max new = 10:
 
 openai-community/gpt2:
 ![image](https://github.com/user-attachments/assets/96b45d40-b1a3-4e34-a2cf-4ef9e0a85c6e)
