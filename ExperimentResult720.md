@@ -174,14 +174,17 @@ The left shows the distribution of likelihood difference for each group without 
 
 
 <center>
-    <img style="border-radius: 0.3125em;
-    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="imgs/female_distribution.png" width = "43%" alt=""/>
-    <img style="border-radius: 0.3125em;
-    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="imgs/female_distribution (1).png" width = "43%" alt=""/>
+    <div style="display: flex; justify-content: center; gap: 10px;">
+        <img style="border-radius: 0.3125em;
+        box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
+        src="imgs/female_distribution.png" width="43%" alt=""/>
+        <img style="border-radius: 0.3125em;
+        box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
+        src="imgs/female_distribution (1).png" width="43%" alt=""/>
+    </div>
     <br>
 </center>
+
 
 For female, the distribution of likelihood difference for rejected tokens doesn't change much after finetuning. However, for accepted tokens, the count has decreased for the likelihood difference around 7.5, and increased for that around 10.
 
