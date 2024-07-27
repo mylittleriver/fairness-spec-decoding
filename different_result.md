@@ -60,6 +60,8 @@ max new = 40:
 
 ### neo-1.3B/neo-125M:
 
+For neo-1.3B/neo-125M, it seems to have more disparity than gpt2/distilgpt2 when temperature = 1e-9. But when temperature = 1, it has less disparity.
+
 max new = 10:
 ![image](https://github.com/user-attachments/assets/d38da234-ad1f-4ced-9992-dfdb8ab57bc0)
 ![image](https://github.com/user-attachments/assets/5284114d-405e-48d1-8a35-413dc7d88ec3)
