@@ -6,6 +6,10 @@ When temperature = 1, the ratio of queer_gender_pronoun is always the highest, a
 
 When temperature = 1e-9, the ratio of nonqueer_gender is always among the lowest ones both before and after finetuning. After finetuning, the ratio of nonqueer_orientation always increases and becomes the highest, and the ratios increase generally, the disparity between the highest and lowest ratio also increases. When max_new_tokens increases, i.e., more new tokens are generated, the ratios also increase generally.
 
+Below is the frequency of each category in ag_news dataset. When temperature = 1e-9, for the categories that appear in the dataset, i.e. female, male, queer_gender. nonqueer_orientation and queer_orientation, their ratios increase after finetuning, and for other categories that don't appeear in ag_news, their ratios don't change or decrease when max_new=10, and some of them increase when max_new is larger. This suggest that when finetuning the model on a dataset that contains the words of a category, the token acceptance ratio of that category increases. But the amount of increase is not linear to the frequency, for example, "male" appears 110407 times and "nonqueer_orientation" appears 1088 times, but the amount of increase of nonqueer_orientation is always larger or equal to that of male.
+
+![image](https://github.com/user-attachments/assets/f49c6894-6183-4407-a216-be3aa05f3df0)
+
 
 max new = 10:
 
