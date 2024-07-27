@@ -9,12 +9,13 @@ openai-community/gpt2:
 gpt2:
 ![image](https://github.com/user-attachments/assets/454f2813-e2c2-48ab-b720-3d2a784537bf)
 
+![image](https://github.com/user-attachments/assets/da143f48-129a-45b3-a7bd-66ff15d0df87)
+
 
 ![image](https://github.com/user-attachments/assets/fce07b5b-fa84-460d-b923-4f707a67da06)
 
 ![image](https://github.com/user-attachments/assets/666cad40-750f-49f9-9acc-d57fc29c295c)
 
-![image](https://github.com/user-attachments/assets/58db59d0-956e-4ef4-aaed-d47b87d8beee)
 
 
 max new = 20:
