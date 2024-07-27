@@ -188,106 +188,86 @@ The left shows the distribution of likelihood difference for each group without 
 
 For female, the distribution of likelihood difference for rejected tokens doesn't change much after finetuning. However, for accepted tokens, the count has decreased for the likelihood difference around 7.5, and increased for that around 10.
 
-
 <center>
-    <img style="border-radius: 0.3125em;
-    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="https://github.com/user-attachments/assets/e5b888a7-f7f0-4cbf-b5ca-8048ef0aca69" width = "48%" alt=""/>
-    <img style="border-radius: 0.3125em;
-    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="https://github.com/user-attachments/assets/0cc87686-e2b8-41ad-9703-bc2973bbdbff" width = "48%" alt=""/>
+    <div style="display: flex; justify-content: center; gap: 10px;">
+        <img style="border-radius: 0.3125em;
+        box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
+        src="imgs/male_distribution.png" width="48%" alt=""/>
+        <img style="border-radius: 0.3125em;
+        box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
+        src="imgs/male_distribution (1).png" width="48%" alt=""/>
+    </div>
+    <br>
+    <div style="display: flex; justify-content: center; gap: 10px;">
+        <img style="border-radius: 0.3125em;
+        box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
+        src="imgs/nonqueer_distribution.png" width="48%" alt=""/>
+        <img style="border-radius: 0.3125em;
+        box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
+        src="imgs/nonqueer_distribution (1).png" width="48%" alt=""/>
+    </div>
+    <br>
+    <div style="display: flex; justify-content: center; gap: 10px;">
+        <img style="border-radius: 0.3125em;
+        box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
+        src="imgs/queer_distribution.png" width="48%" alt=""/>
+        <img style="border-radius: 0.3125em;
+        box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
+        src="imgs/queer_distribution (1).png" width="48%" alt=""/>
+    </div>
+    <br>
+    <div style="display: flex; justify-content: center; gap: 10px;">
+        <img style="border-radius: 0.3125em;
+        box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
+        src="imgs/nonqueer_gender_distribution.png" width="48%" alt=""/>
+        <img style="border-radius: 0.3125em;
+        box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
+        src="imgs/nonqueer_gender_distribution (1).png" width="48%" alt=""/>
+    </div>
+    <br>
+    <div style="display: flex; justify-content: center; gap: 10px;">
+        <img style="border-radius: 0.3125em;
+        box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
+        src="imgs/nonqueer_orientation_distribution.png" width="48%" alt=""/>
+        <img style="border-radius: 0.3125em;
+        box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
+        src="imgs/nonqueer_orientation_distribution (1).png" width="48%" alt=""/>
+    </div>
+    <br>
+    <div style="display: flex; justify-content: center; gap: 10px;">
+        <img style="border-radius: 0.3125em;
+        box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
+        src="imgs/queer_gender_distribution.png" width="48%" alt=""/>
+        <img style="border-radius: 0.3125em;
+        box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
+        src="imgs/queer_gender_distribution (1).png" width="48%" alt=""/>
+    </div>
+    <br>
+    <div style="display: flex; justify-content: center; gap: 10px;">
+        <img style="border-radius: 0.3125em;
+        box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
+        src="imgs/queer_orientation_distribution.png" width="48%" alt=""/>
+        <img style="border-radius: 0.3125em;
+        box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
+        src="imgs/queer_orientation_distribution (1).png" width="48%" alt=""/>
+    </div>
+    <br>
+    <div style="display: flex; justify-content: center; gap: 10px;">
+        <img style="border-radius: 0.3125em;
+        box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
+        src="imgs/queer_gender_pronoun_distribution.png" width="48%" alt=""/>
+        <img style="border-radius: 0.3125em;
+        box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
+        src="imgs/queer_gender_pronoun_distribution (1).png" width="48%" alt=""/>
+    </div>
+    <br>
+    <div style="display: flex; justify-content: center; gap: 10px;">
+        <img style="border-radius: 0.3125em;
+        box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
+        src="imgs/queer_gender_xenogender_distribution.png" width="48%" alt=""/>
+        <img style="border-radius: 0.3125em;
+        box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
+        src="imgs/queer_gender_xenogender_distribution (1).png" width="48%" alt=""/>
+    </div>
     <br>
 </center>
-
-
-<center>
-    <img style="border-radius: 0.3125em;
-    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="https://github.com/user-attachments/assets/80e33f0d-920e-4f91-ac51-bccb9c2eae69" width = "48%" alt=""/>
-    <img style="border-radius: 0.3125em;
-    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="https://github.com/user-attachments/assets/d2daece5-5c3d-4b7d-9a65-6f6dddc7fb86" width = "48%" alt=""/>
-    <br>
-</center>
-
-
-<center>
-    <img style="border-radius: 0.3125em;
-    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="https://github.com/user-attachments/assets/32172661-c78d-4019-bf3b-e472addefebc" width = "48%" alt=""/>
-    <img style="border-radius: 0.3125em;
-    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="https://github.com/user-attachments/assets/cafd7da4-c713-4469-a125-a78ec6c533b2" width = "48%" alt=""/>
-    <br>
-</center>
-
-
-<center>
-    <img style="border-radius: 0.3125em;
-    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="https://github.com/user-attachments/assets/1c7030bb-90e5-4856-b1d6-9b9dbfe8b63e" width = "48%" alt=""/>
-    <img style="border-radius: 0.3125em;
-    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="https://github.com/user-attachments/assets/5b31732f-d1c6-445d-8571-ddcb9cf1bf20" width = "48%" alt=""/>
-    <br>
-</center>
-
-
-
-<center>
-    <img style="border-radius: 0.3125em;
-    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="https://github.com/user-attachments/assets/01416f2b-c3d9-4f07-9d0c-224854ea53e7" width = "48%" alt=""/>
-    <img style="border-radius: 0.3125em;
-    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="https://github.com/user-attachments/assets/56780d68-cf46-462c-a42b-8ff8dbc8a9f5" width = "48%" alt=""/>
-    <br>
-</center>
-
-
-<center>
-    <img style="border-radius: 0.3125em;
-    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="https://github.com/user-attachments/assets/2f3ec776-840a-41ba-abb5-b8fa84c32545" width = "48%" alt=""/>
-    <img style="border-radius: 0.3125em;
-    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="https://github.com/user-attachments/assets/f4d11975-a21d-48fb-9990-ef10ddb04f45" width = "48%" alt=""/>
-    <br>
-</center>
-
-
-
-<center>
-    <img style="border-radius: 0.3125em;
-    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="https://github.com/user-attachments/assets/55aaa5c7-1516-420f-9f5d-38fad8f27466" width = "48%" alt=""/>
-    <img style="border-radius: 0.3125em;
-    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="https://github.com/user-attachments/assets/edb64eb1-48c8-456f-b6a2-5db801695c83" width = "48%" alt=""/>
-    <br>
-</center>
-
-
-<center>
-    <img style="border-radius: 0.3125em;
-    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="https://github.com/user-attachments/assets/16c4439d-6049-4b82-be5b-21ea527630ce" width = "48%" alt=""/>
-    <img style="border-radius: 0.3125em;
-    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="https://github.com/user-attachments/assets/ad2e4fff-faa9-413e-9f55-a72ac6061614" width = "48%" alt=""/>
-    <br>
-</center>
-
-
-<center>
-    <img style="border-radius: 0.3125em;
-    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="https://github.com/user-attachments/assets/3c157584-c35a-4cea-9d03-40f121ab1f47" width = "48%" alt=""/>
-    <img style="border-radius: 0.3125em;
-    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="https://github.com/user-attachments/assets/b44713d6-d972-44e8-aaee-44df6e99d104" width = "48%" alt=""/>
-    <br>
-</center>
-
-
-
