@@ -1,3 +1,5 @@
+The newly plotted token acceptance ratio graph for the setting [gpt2/distilgpt2, temperature 1e-9] has less disparity than the initial result, thus I replotted the token acceptance ratio graph for previous settings to verify the previous results. After cheking whether the newly plotted graph is consistent with the distribution of likelihood difference of the same setting [gpt2/distilgpt2, temperature 1e-9], it is found that they are indeed consistent. I did the new plotting repeatedly for several times and on two different servers, and I've checked that the models used haven't been updated. Therefore, it can be inderred that the newly plotted graphs are correct and initial result of token acceptance ratio graph was wrong. I have modified the code for plotting each time with a new setting, so I think it's because the code for plotting the initial result is wrong and the mean of token acceptance ratio for each category was not properly calculated.
+
 gpt2/distilgpt2:
 
 For models gpt2/distilgpt2, the result is stable when temperature = 1e-9, and differs slightly each time when temperature = 1.
