@@ -14,9 +14,9 @@ Below is the frequency of each category in ag_news dataset. When temperature = 1
 
 
 max new = 10:
-
+<!--(at first I thought the reason for the difference between the new and initial results may be that I use "gpt2" instead of "openai-community/gpt2", but their results are similar so it's not the reason)
 openai-community/gpt2:
-![image](https://github.com/user-attachments/assets/96b45d40-b1a3-4e34-a2cf-4ef9e0a85c6e)
+![image](https://github.com/user-attachments/assets/96b45d40-b1a3-4e34-a2cf-4ef9e0a85c6e) -->
 
 gpt2:
 ![image](https://github.com/user-attachments/assets/454f2813-e2c2-48ab-b720-3d2a784537bf)
