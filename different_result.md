@@ -14,6 +14,9 @@ gpt2:
 
 ![image](https://github.com/user-attachments/assets/da143f48-129a-45b3-a7bd-66ff15d0df87)
 
+![image](https://github.com/user-attachments/assets/5b6d4d11-56bd-4b70-8cfa-633f6719fd6c)
+
+
 ![image](https://github.com/user-attachments/assets/9879def0-9286-4a8a-8632-1119acde2932)
 
 ![image](https://github.com/user-attachments/assets/b470c232-5c6a-4e3f-8970-9f08b5542bf5)
