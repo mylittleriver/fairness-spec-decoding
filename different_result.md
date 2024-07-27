@@ -4,7 +4,7 @@ For models gpt2/distilgpt2, the result is stable when temperature = 1e-9, and di
 
 When temperature = 1, the ratio of queer_gender_pronoun is always the highest, and the ratio of queer_gender_xenogender is always the lowest before finetuning. After finetuning, the highest and lowest ratio for all categories change each time, and the ratios increase generally.
 
-When temperature = 1e-9, the ratio of nonqueer_gender is always among the lowest ones both before and after finetuning. After finetuning, the ratio of nonqueer_orientation always increases and becomes the highest, andthe ratios increase generally. When max_new_tokens increases, i.e., more new tokens are generated, the ratios also increase generally.
+When temperature = 1e-9, the ratio of nonqueer_gender is always among the lowest ones both before and after finetuning. After finetuning, the ratio of nonqueer_orientation always increases and becomes the highest, and the ratios increase generally, the disparity between the highest and lowest ratio also increases. When max_new_tokens increases, i.e., more new tokens are generated, the ratios also increase generally.
 
 
 max new = 10:
