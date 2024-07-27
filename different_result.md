@@ -1,5 +1,8 @@
 gpt2/distilgpt2:
 
+For models gpt2/distilgpt2, the result is stable when temperature = 1, and differs slightly each time when temperature = 1e-9.
+
+When temperature = 1, the ratio of the category queer gender pronoun is always the highest, and the ratio for queer gender 
 
 max new = 10:
 
@@ -10,6 +13,8 @@ gpt2:
 ![image](https://github.com/user-attachments/assets/454f2813-e2c2-48ab-b720-3d2a784537bf)
 
 ![image](https://github.com/user-attachments/assets/da143f48-129a-45b3-a7bd-66ff15d0df87)
+
+![image](https://github.com/user-attachments/assets/9879def0-9286-4a8a-8632-1119acde2932)
 
 
 ![image](https://github.com/user-attachments/assets/fce07b5b-fa84-460d-b923-4f707a67da06)
