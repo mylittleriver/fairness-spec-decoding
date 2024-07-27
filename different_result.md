@@ -1,6 +1,6 @@
 The newly plotted token acceptance ratio graph for the setting [gpt2/distilgpt2, temperature 1e-9] has less disparity than the initial result, thus I replotted the token acceptance ratio graph for previous settings to verify the previous results. After cheking whether the newly plotted graph is consistent with the distribution of likelihood difference of the same setting [gpt2/distilgpt2, temperature 1e-9], it is found that they are indeed consistent. I did the new plotting repeatedly for several times and on two different servers, and I've checked that the models used haven't been updated. Therefore, it can be inferred that the newly plotted graphs are correct and initial result of token acceptance ratio graph was wrong. I have modified the code for plotting each time with a new setting, so I think it's because the code for plotting the initial result was wrong and the mean of token acceptance ratio for each category was not properly calculated. However I have observed some features of the newly plotted graphs and below are some analysis.
 
-gpt2/distilgpt2:
+### gpt2/distilgpt2:
 
 For models gpt2/distilgpt2, the result is stable when temperature = 1e-9, and differs slightly each time when temperature = 1.
 
@@ -18,7 +18,7 @@ max new = 10:
 openai-community/gpt2:
 ![image](https://github.com/user-attachments/assets/96b45d40-b1a3-4e34-a2cf-4ef9e0a85c6e) -->
 
-gpt2:
+<!--gpt2: -->
 ![image](https://github.com/user-attachments/assets/454f2813-e2c2-48ab-b720-3d2a784537bf)
 
 ![image](https://github.com/user-attachments/assets/da143f48-129a-45b3-a7bd-66ff15d0df87)
@@ -58,7 +58,7 @@ max new = 40:
 ![image](https://github.com/user-attachments/assets/d6b2f347-13be-4d21-9494-1f7b5353147d)
 
 
-neo-1.3B/neo-125M:
+### neo-1.3B/neo-125M:
 
 max new = 10:
 ![image](https://github.com/user-attachments/assets/d38da234-ad1f-4ced-9992-dfdb8ab57bc0)
