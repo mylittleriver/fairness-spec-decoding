@@ -179,7 +179,7 @@ The left shows the distribution of likelihood difference for each group without 
     src="imgs/female_distribution.png" width = "48%" alt=""/>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="imgs/female_distribution(1).png" width = "48%" alt=""/>
+    src="imgs/female_distribution (1).png" width = "48%" alt=""/>
     <br>
 </center>
 
