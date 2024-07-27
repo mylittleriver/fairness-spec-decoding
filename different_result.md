@@ -14,6 +14,7 @@ gpt2:
 
 ![image](https://github.com/user-attachments/assets/666cad40-750f-49f9-9acc-d57fc29c295c)
 
+![image](https://github.com/user-attachments/assets/58db59d0-956e-4ef4-aaed-d47b87d8beee)
 
 
 max new = 20:
