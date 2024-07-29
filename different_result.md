@@ -79,6 +79,10 @@ max new = 10:
 
 
 ![image](https://github.com/user-attachments/assets/c274c3a7-c098-4723-a6a1-f023e48ea38c)
+![image](https://github.com/user-attachments/assets/4c0b71eb-6162-4975-b208-b815ff0d5474)
+![image](https://github.com/user-attachments/assets/3b37da3e-7cf4-46e7-83cc-ba48b45cea7e)
+![image](https://github.com/user-attachments/assets/a4b2a2dc-2d57-4f4a-9025-d62426a85024)
+
 
 
 max new = 20:
