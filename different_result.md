@@ -10,7 +10,8 @@ When temperature = 1e-9, the ratio of nonqueer_gender is always among the lowest
 
 Below is the frequency of each category in ag_news dataset. When temperature = 1e-9, for the categories that appear in the dataset, i.e. female, male, queer_gender. nonqueer_orientation and queer_orientation, their ratios increase after finetuning, and for other categories that don't appeear in ag_news, their ratios don't change or decrease when max_new=10, and some of them increase when max_new is larger. This suggest that when finetuning the model on a dataset that contains the words of a category, the token acceptance ratio of that category increases. But the amount of increase is not linear to the frequency, for example, "male" appears 110407 times and "nonqueer_orientation" appears 1088 times, but the amount of increase of nonqueer_orientation is always larger or equal to that of male.
 
-![image](https://github.com/user-attachments/assets/f49c6894-6183-4407-a216-be3aa05f3df0)
+![image](https://github.com/user-attachments/assets/025c2a86-6c1a-4ada-87d6-8b35484f509c)
+
 
 
 max new = 10:
@@ -61,6 +62,10 @@ max new = 40:
 ### neo-1.3B/neo-125M:
 
 For neo-1.3B/neo-125M, the result is also stable when temperature = 1e-9. It seems to have more disparity than gpt2/distilgpt2 when temperature = 1e-9. But when temperature = 1, it has less disparity. 
+
+frequency of each category in sst2 dataset:
+![image](https://github.com/user-attachments/assets/7c243720-5396-4d2c-af7c-f3da9748c90d)
+
 
 max new = 10:
 ![image](https://github.com/user-attachments/assets/d38da234-ad1f-4ced-9992-dfdb8ab57bc0)
