@@ -65,6 +65,8 @@ For neo-1.3B/neo-125M, the result is also stable when temperature = 1e-9. It see
 
 frequency of each category in sst2 dataset:
 ![image](https://github.com/user-attachments/assets/7c243720-5396-4d2c-af7c-f3da9748c90d)
+frequency of each category in wikitext dataset:
+![image](https://github.com/user-attachments/assets/ffb06b0f-172b-4695-a27a-219d0e0c5e04)
 
 
 max new = 10:
