@@ -74,7 +74,9 @@ frequency of each category in imdb dataset:
 
 max new = 10:
 ![image](https://github.com/user-attachments/assets/d38da234-ad1f-4ced-9992-dfdb8ab57bc0)
-![image](https://github.com/user-attachments/assets/5284114d-405e-48d1-8a35-413dc7d88ec3)
+![image](https://github.com/user-attachments/assets/507e77c8-af09-4c0c-863e-696cfb267d3e)
+
+
 ![image](https://github.com/user-attachments/assets/c274c3a7-c098-4723-a6a1-f023e48ea38c)
 
 
