@@ -89,3 +89,7 @@ max new = 20:
 ![image](https://github.com/user-attachments/assets/667bf4be-e5b7-4e70-acef-faa79fe7e7f2)
 
 ![image](https://github.com/user-attachments/assets/b3f3dc60-101d-4445-b378-7389f68013f7)
+
+max new = 30:
+![image](https://github.com/user-attachments/assets/db9dd7b5-a4b1-454b-93cf-a19b372e57f1)
+
