@@ -87,6 +87,8 @@ max new = 10:
 
 max new = 20:
 ![image](https://github.com/user-attachments/assets/667bf4be-e5b7-4e70-acef-faa79fe7e7f2)
+![image](https://github.com/user-attachments/assets/f3680e0b-3dd5-4767-a9dd-e023e5a6a980)
+
 
 ![image](https://github.com/user-attachments/assets/b3f3dc60-101d-4445-b378-7389f68013f7)
 
