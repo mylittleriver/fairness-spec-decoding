@@ -65,6 +65,8 @@ For neo-1.3B/neo-125M, the result is also stable when temperature = 1e-9. It see
 max new = 10:
 ![image](https://github.com/user-attachments/assets/d38da234-ad1f-4ced-9992-dfdb8ab57bc0)
 ![image](https://github.com/user-attachments/assets/5284114d-405e-48d1-8a35-413dc7d88ec3)
+![image](https://github.com/user-attachments/assets/c274c3a7-c098-4723-a6a1-f023e48ea38c)
+
 
 max new = 20:
 ![image](https://github.com/user-attachments/assets/5398f1ca-f63b-4eb8-8307-25d584e94f27)
