@@ -1,6 +1,14 @@
 ## A brief analysis of the differences between the two algorithms
-Speculative decoding:
-![image](https://github.com/user-attachments/assets/02274570-3e21-4d70-af89-376bd331dc9c)
-SpecTr:
-![image](https://github.com/user-attachments/assets/fecd3350-e368-40c0-b518-4b6d4da68950)
 
+The left is Speculative decoding, and the right is SpecTr
+
+ <center>
+    <img style="border-radius: 0.3125em;
+    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
+    src="https://github.com/user-attachments/assets/02274570-3e21-4d70-af89-376bd331dc9c" width = "48%" alt=""/>
+    <img style="border-radius: 0.3125em;
+    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
+    src="https://github.com/user-attachments/assets/fecd3350-e368-40c0-b518-4b6d4da68950" width = "48%" alt=""/>
+    <br>
+    
+</center>
