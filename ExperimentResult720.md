@@ -10,7 +10,7 @@ The experiments are conducted using EleutherAI/gpt-neo-1.3B as the main model, E
 
 Since it occurs error when setting temperature=0 when calling the model.generate() function, I'm not sure if I can change the function to achieve temperature=0.
 
-<img width="794" alt="f3bc99f6201558a14757bdc940a658c" src="https://github.com/user-attachments/assets/844eb026-38bb-415f-9fd1-bc17848043e1">
+![image](https://github.com/user-attachments/assets/844eb026-38bb-415f-9fd1-bc17848043e1)
 
 However, setting temperature=1e-9 makes p_i to be only 0 or 1, so I guess it should have been more deterministic for the main model, for example:
 
