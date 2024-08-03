@@ -1,6 +1,6 @@
 ## A brief analysis of the differences between the two algorithms
 
-The left is Speculative decoding, and the right is SpecTr
+The left shows the algorithm of Speculative decoding, and the right shows the algorithm of SpecTr
 
  <center>
     <img style="border-radius: 0.3125em;
@@ -12,3 +12,5 @@ The left is Speculative decoding, and the right is SpecTr
     <br>
     
 </center>
+
+The main difference lies in the number of sampled drafts sampled from the small model and the selection algorithm that selects a valid sequence from multiple draft sequences.
