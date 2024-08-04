@@ -22,4 +22,3 @@ $$
 \min_{\pi \in \Pi(p,q)} \mathbb{P}_{X,Y \sim \pi}(Y \neq X) &= \max_{\pi \in \Pi(p,q)} \mathbb{P}_{X,Y \sim \pi}(Y \neq X)
 \end{align*}
 $$
-
