@@ -17,6 +17,6 @@ The main difference lies in the number of sampled drafts sampled from the small 
 
 
 
-变量 $\min_{\pi \in \Pi(p,q)} \mathbb{P}_{X,Y \sim \pi}(Y \neq X) = 10$。
+变量 $\min_{\pi \in \Pi(p,q)} \mathbb{P}_{X,Y \sim \pi}(Y \neq X) = \max_{\pi \in \Pi(p,q)} \mathbb{P}_{X,Y \sim \pi}(Y = X)$。
 
 
