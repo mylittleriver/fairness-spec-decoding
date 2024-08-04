@@ -17,12 +17,14 @@ The main difference lies in the number of sampled drafts sampled from the small 
 
 
 
-<center>
-<img style="border-radius: 0.3125em;
-box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-src="https://github.com/user-attachments/assets/1a689cc3-705c-49f3-a710-84181cf4250c" width = "50%" alt=""/>
-<br>
-</center>  
+<div style="text-align: center;">
+    <img 
+        style="border-radius: 0.3125em; box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);"
+        src="https://github.com/user-attachments/assets/1a689cc3-705c-49f3-a710-84181cf4250c" 
+        width="50%" 
+        alt=""
+    />
+</div>
 
  
  
