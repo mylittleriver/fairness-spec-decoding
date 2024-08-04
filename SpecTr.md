@@ -14,3 +14,7 @@ The left shows the algorithm of Speculative decoding, and the right shows the al
 </center>
 
 The main difference lies in the number of sampled drafts sampled from the small model and the selection algorithm that selects a valid sequence from multiple draft sequences.
+
+$$
+\min_{\pi \in \Pi(p,q)} \mathbb{P}_{X,Y \sim \pi}(Y \neq X)
+$$
