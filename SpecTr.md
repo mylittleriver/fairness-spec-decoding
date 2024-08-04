@@ -23,7 +23,9 @@ $$
 \min_{\pi \in \Pi(p,q)} \mathbb{P}_{X,Y \sim \pi}(Y \neq X) = \sum_{x \in \Omega} \min(p(x), q(x))
 $$
 
-$\min_{\pi \in \Pi(p,q)} \mathbb{P}_{X,Y \sim \pi}(Y \neq X)$ =
+$\min_{\pi \in \Pi(p,q)} \mathbb{P}_{X,Y \sim \pi}(Y \neq X) =$ 
+
+$\sum_{x \in \Omega} \min(p(x), q(x))$
 
 
  
