@@ -20,6 +20,7 @@ The main difference lies in the number of sampled drafts sampled from the small 
 - draft selection algorithm: OTM-k and K-SEQ
   - when K=1, it is the original speculative decoding and achieves optimal coupling and optimal acceptance probability (OTM-k)
   - when K>1, provide an approximate solution K-SEQ
+  - needs modification to _speculative_sampling() method
 
  K-SEQ:
  
