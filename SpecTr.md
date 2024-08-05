@@ -47,9 +47,39 @@ def get_k_candidates(input_ids, k):
 ```
 draft selection - _assisted_decoding_spectr() and _spceulative_sampling_spectr():
 
+```
+def _assisted_decoding_spectr(
+        self,
+        input_ids: torch.LongTensor,
+        k: int, # take k as input
+        candidate_generator: CandidateGenerator,
+        logits_processor: LogitsProcessorList,
+        logits_warper: LogitsProcessorList,
+        stopping_criteria: StoppingCriteriaList,
+        generation_config: GenerationConfig,
+        synced_gpus: bool,
+        streamer: Optional["BaseStreamer"],
+        **model_kwargs,
+    )
+  # get k samples from get_k_candidates()
+  candidate_input_ids_list, candidate_logits_list = candidate_generator.get_k_candidates(input_ids,k)
+```
+
+calculate ρ<sup>*</sup>:
+```
+def beta_pq(rho, p, q):
+    return torch.sum(torch.minimum(p/rho , q)).item()
+
+def equation(rho, p, q, k):
+    beta = beta_pq(rho, p, q)
+    return 1 - (1 - beta)**k - rho * beta
+
+rho_star, = fsolve(equation, initial_guess, args=(p.cpu().numpy(), q.cpu().numpy(), k))
+rho_star = max(lower_bound, min(upper_bound, rho_star))
+```
 
 
-One question: are the followings contradictory?
+### One question: are the followings contradictory?
 
 optimal transport cost (1 - optimal acceptance probability):
 ![image](https://github.com/user-attachments/assets/91303dcd-2395-4b96-b997-158e67849439)
