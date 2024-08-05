@@ -40,8 +40,10 @@ candidate_logits_list = []
 
 One question: are the followings contradictory?
 
+optimal transport cost (1 - optimal acceptance probability):
 ![image](https://github.com/user-attachments/assets/91303dcd-2395-4b96-b997-158e67849439)
 
+acceptance probability:
 <div style="text-align: center;">
     <img src="https://github.com/user-attachments/assets/e2484505-4f8d-4531-abc7-2c9c0b6a63c8" width="60%" alt=""/>
 </div>
