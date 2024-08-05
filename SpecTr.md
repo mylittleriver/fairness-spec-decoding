@@ -32,11 +32,18 @@ How to compute ρ:
 ![image](https://github.com/user-attachments/assets/152f1be6-1489-4f62-bd24-ce89c6fe919e)
 
 
-candidate_ids_list = []
-candidate_logits_list = []
+## code implementation
+
+get_k_candidates():
+'''
+def get_k_candidates(input_ids, k):
+    candidate_ids_list = []
+    candidate_logits_list = []
 
         for _ in range(k):
-
+          #sample k drafts
+    return candidate_ids_list, candidate_logits_list
+'''
 
 One question: are the followings contradictory?
 
