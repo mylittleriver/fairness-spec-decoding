@@ -32,6 +32,7 @@ How to compute ρ:
 ![image](https://github.com/user-attachments/assets/152f1be6-1489-4f62-bd24-ce89c6fe919e)
 
 
+
 ## code implementation
 
 draft construction - get_k_candidates():
