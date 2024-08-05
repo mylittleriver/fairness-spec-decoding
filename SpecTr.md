@@ -77,6 +77,7 @@ def _assisted_decoding_spectr(
 
 calculate ρ<sup>*</sup>:
 ```
+from scipy.optimize import fsolve
 def beta_pq(rho, p, q):
     return torch.sum(torch.minimum(p/rho , q)).item()
 
@@ -84,6 +85,9 @@ def equation(rho, p, q, k):
     beta = beta_pq(rho, p, q)
     return 1 - (1 - beta)**k - rho * beta
 
+initial_guess = 1.0 
+lower_bound = 1
+upper_bound = k
 rho_star, = fsolve(equation, initial_guess, args=(p.cpu().numpy(), q.cpu().numpy(), k))
 rho_star = max(lower_bound, min(upper_bound, rho_star))
 ```
