@@ -1,6 +1,6 @@
 ## A brief analysis of the differences between the two algorithms
 
-The left shows the algorithm of Speculative decoding, and the right shows the algorithm of SpecTr
+The left shows the algorithm of Speculative decoding, and the right shows the algorithm of SpecTr.
 
  <center>
     <img style="border-radius: 0.3125em;
@@ -14,7 +14,13 @@ The left shows the algorithm of Speculative decoding, and the right shows the al
 
 
 The main difference lies in the number of sampled drafts sampled from the small model and the selection algorithm that selects a valid sequence from multiple draft sequences.
-
+- draft construction: construct K sampled drafts sampled from the small model
+ -  independently sample K draft sequences from the small model
+ -  needs modification to get_candidates() method to return K candidate_ids
+- draft selection algorithm: OTM-k and K-SEQ
+ - when K=1, it is the original speculative decoding and achieves optimal coupling and optimal acceptance probability (OTM-k)
+ - when K>1, provide an approximate solution K-SEQ
+   
 
 <div style="text-align: center;">
     <img 
