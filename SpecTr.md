@@ -44,7 +44,7 @@ One question: are the followings contradictory?
 
 <img style="border-radius: 0.3125em;
 box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-src="https://github.com/user-attachments/assets/e2484505-4f8d-4531-abc7-2c9c0b6a63c8" width = "32%" alt=""/>
+src="https://github.com/user-attachments/assets/e2484505-4f8d-4531-abc7-2c9c0b6a63c8" width = "60%" alt=""/>
  
  
 
