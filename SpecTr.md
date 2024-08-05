@@ -31,6 +31,10 @@ How to compute ρ:
 
 ![image](https://github.com/user-attachments/assets/152f1be6-1489-4f62-bd24-ce89c6fe919e)
 
+sequence level selection:
+
+![image](https://github.com/user-attachments/assets/e85d392d-51a5-4f65-a030-413da82a8d96)
+
 
 
 ## code implementation
