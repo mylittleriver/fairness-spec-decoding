@@ -12,7 +12,7 @@ src="https://github.com/user-attachments/assets/80807457-6e11-42a9-bedb-6315b71c
 
 
 
-The main difference lies in the number of sampled drafts sampled from the small model and the selection algorithm that selects a valid sequence from multiple draft sequences.
+The main difference lies in the number of sampled drafts (batch size) sampled from the small model and the selection algorithm that selects a valid sequence from multiple draft sequences.
 - draft construction: construct K sampled drafts sampled from the small model
   - independently sample K draft sequences from the small model
   - code modification: add get_k_candidates() method to return K candidate_ids
