@@ -35,7 +35,9 @@ sequence level selection:
 
 ![image](https://github.com/user-attachments/assets/e85d392d-51a5-4f65-a030-413da82a8d96)
 
+### Question raised
 
+If temperature = 0, the K draft tokens would be the same?
 
 ## code implementation
 
