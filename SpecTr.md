@@ -33,14 +33,17 @@ How to compute ρ:
 ![image](https://github.com/user-attachments/assets/152f1be6-1489-4f62-bd24-ce89c6fe919e)
 
 
-<div style="text-align: center;">
-    <img 
-        style="border-radius: 0.3125em; box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);"
-        src="https://github.com/user-attachments/assets/331d9d99-5197-40f5-8a7d-7ea0c98862c2" 
-        width="18%" 
-        alt=""
-    />
-</div>
+candidate_ids_list = []
+candidate_logits_list = []
+
+        for _ in range(k):
+
+
+One question: are the followings contradictory?
+
+![image](https://github.com/user-attachments/assets/91303dcd-2395-4b96-b997-158e67849439)
+![image](https://github.com/user-attachments/assets/e2484505-4f8d-4531-abc7-2c9c0b6a63c8)
+
 
  
  
