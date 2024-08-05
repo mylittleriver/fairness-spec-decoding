@@ -16,7 +16,7 @@ The left shows the algorithm of Speculative decoding, and the right shows the al
 The main difference lies in the number of sampled drafts sampled from the small model and the selection algorithm that selects a valid sequence from multiple draft sequences.
 - draft construction: construct K sampled drafts sampled from the small model
   - independently sample K draft sequences from the small model
-  - needs modification to get_candidates() method to return K candidate_ids
+  - add get_k_candidates() method to return K candidate_ids
 - draft selection algorithm: OTM-k and K-SEQ
   - when K=1, it is the original speculative decoding and achieves optimal coupling and optimal acceptance probability (OTM-k)
   - when K>1, provide an approximate suboptimal solution K-SEQ 
