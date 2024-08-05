@@ -38,12 +38,14 @@ draft construction - get_k_candidates():
 
 '''
 def get_k_candidates(input_ids, k):
-    candidate_ids_list = []
-    candidate_logits_list = []
-
-        for _ in range(k):
-          #sample k drafts
-    return candidate_ids_list, candidate_logits_list
+  candidate_ids_list = []
+  candidate_logits_list = []
+  for _ in range(k):
+    #sample k drafts
+  return candidate_ids_list, candidate_logits_list
+          
+        
+    
 '''
 
 One question: are the followings contradictory?
