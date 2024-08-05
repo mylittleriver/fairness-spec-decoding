@@ -28,6 +28,11 @@ The main difference lies in the number of sampled drafts sampled from the small 
 
 The algorithm output the first accepted sample or result from a residual distribution p<sub>res</sub> if none of the samples is accepted. To guarantee that the final returned token is a valid sample from q, we choose an appropriate ρ ∈ [1, k] and accept Xi with probability min(1, q(Xi)/(ρ · p(Xi))) instead of min(1, q(Xi)/(p(Xi))) as in Speculative Decoding.
 
+How to compute ρ:
+
+![image](https://github.com/user-attachments/assets/152f1be6-1489-4f62-bd24-ce89c6fe919e)
+
+
 <div style="text-align: center;">
     <img 
         style="border-radius: 0.3125em; box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);"
