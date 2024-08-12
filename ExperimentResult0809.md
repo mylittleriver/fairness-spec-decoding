@@ -1,3 +1,9 @@
+## Distribution of p_i and q_i for accepted, rejected and both tokens of all groups
+
+
+
+## Goal: to find tokens that smaller model has higher confidence but rejected, and tokens that smaller model has higher confidence and accepted; to seperate into specific groups and find disparity among groups
+
 The pair with greatest disparity in terms of acceptance rate is queer/queer_gender_pronoun.
 <center>
  <img style="border-radius: 0.3125em;
