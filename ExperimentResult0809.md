@@ -15,12 +15,13 @@ The distribution of likelihood difference and acceptance rate/rejection rate of 
 <center>
  <img style="border-radius: 0.3125em;
  box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
- src="https://github.com/user-attachments/assets/08391b8d-383d-4144-bfbf-472a3ad47545" width = "38%" alt=""/>
+ src="https://github.com/user-attachments/assets/08391b8d-383d-4144-bfbf-472a3ad47545" width = "36%" alt=""/>
  
  <img style="border-radius: 0.3125em;
  box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
- src="https://github.com/user-attachments/assets/df201453-00b4-4b5c-8df7-cbaff93fa2e4" width = "38%" alt=""/>
+ src="https://github.com/user-attachments/assets/df201453-00b4-4b5c-8df7-cbaff93fa2e4" width = "36%" alt=""/>
 </center>
+
 <center>
 <img style="border-radius: 0.3125em;
 box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
