@@ -4,7 +4,8 @@
 
 ## Goal: to find tokens that smaller model has higher confidence but rejected, and tokens that smaller model has higher confidence and accepted; to seperate into specific groups and find disparity among groups
 
-The pair with greatest disparity in terms of acceptance rate is queer/queer_gender_pronoun.
+The pair with greatest disparity in terms of acceptance rate is queer/queer_gender_pronoun, with acceptance rate 0.837 for queer, 0.904 for queer_gender_pronoun. 
+
 <center>
  <img style="border-radius: 0.3125em;
  box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
