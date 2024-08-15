@@ -1,5 +1,10 @@
 ## Distribution of p_i and q_i for accepted, rejected and both tokens of all groups
 
+![image](https://github.com/user-attachments/assets/d1a6d877-36f0-48aa-9520-f8d3af7d1388)
+
+![image](https://github.com/user-attachments/assets/6ed46ed9-6f07-433a-b4f5-b60b5ba011a3)
+
+![image](https://github.com/user-attachments/assets/1817c75d-b1d6-45d6-a76a-d189e3765cef)
 
 
 ## Goal: to find tokens that smaller model has higher confidence but rejected, and tokens that smaller model has higher confidence and accepted; to seperate into specific groups and find disparity among groups
