@@ -124,6 +124,15 @@ The pair with greatest disparity in terms of acceptance rate is still queer/quee
 <center>
  <img style="border-radius: 0.3125em;
  box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
+ src="https://github.com/user-attachments/assets/f656014f-aa84-4c4f-be33-302d200c2390" width = "44%" alt=""/>
+ <img style="border-radius: 0.3125em;
+ box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
+ src="https://github.com/user-attachments/assets/775ee0f1-8e97-49b5-a04d-04ae479d7ff6" width = "38%" alt=""/>
+</center>
+
+<center>
+ <img style="border-radius: 0.3125em;
+ box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
  src="https://github.com/user-attachments/assets/ce3eb4a0-f967-4c9a-8060-1807f83a4575" width = "44%" alt=""/>
  <img style="border-radius: 0.3125em;
  box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
@@ -150,14 +159,7 @@ The pair with greatest disparity in terms of acceptance rate is still queer/quee
 
 
 
-<center>
- <img style="border-radius: 0.3125em;
- box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
- src="https://github.com/user-attachments/assets/f656014f-aa84-4c4f-be33-302d200c2390" width = "44%" alt=""/>
- <img style="border-radius: 0.3125em;
- box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
- src="https://github.com/user-attachments/assets/775ee0f1-8e97-49b5-a04d-04ae479d7ff6" width = "38%" alt=""/>
-</center>
+
 
 
 
