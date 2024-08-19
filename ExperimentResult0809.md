@@ -21,7 +21,7 @@ KDE of distribution of p_i and q_i for rejected tokens of all groups:
 what else processing can be done to p_i and q_i for each token?
 <img style="border-radius: 0.3125em;
  box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
- src="https://github.com/user-attachments/assets/4e7231f6-144e-45e4-bccd-62e3118bb8e6" width = "43%" alt=""/>
+ src="https://github.com/user-attachments/assets/4e7231f6-144e-45e4-bccd-62e3118bb8e6" width = "70%" alt=""/>
 
 ## Goal: to find tokens that smaller model has higher confidence but rejected, and tokens that smaller model has higher confidence and accepted; to seperate into specific groups and find disparity among groups
 
