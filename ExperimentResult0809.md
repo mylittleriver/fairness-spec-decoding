@@ -69,17 +69,34 @@ src="https://github.com/user-attachments/assets/63a91582-02a5-4c7d-bf12-6d2d3370
 
 ## Change num_assistant_tokens_schedule from heuristic to constant and change num_assistant_tokens to see what will change
 
-![image](https://github.com/user-attachments/assets/b6cfdb55-a96c-4cf2-815f-ee96c68f783f)
+<center>
+ <img style="border-radius: 0.3125em;
+ box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
+ src="https://github.com/user-attachments/assets/b6cfdb55-a96c-4cf2-815f-ee96c68f783f" width = "41%" alt=""/>
+ <img style="border-radius: 0.3125em;
+ box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
+ src="https://github.com/user-attachments/assets/a7c8ec3e-dc35-4039-a011-bbcabd9414b3" width = "41%" alt=""/>
+</center>
 
-![image](https://github.com/user-attachments/assets/a7c8ec3e-dc35-4039-a011-bbcabd9414b3)
+<center>
+ <img style="border-radius: 0.3125em;
+ box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
+ src="https://github.com/user-attachments/assets/530a173b-7543-4f0c-af9c-b7567a395d66" width = "41%" alt=""/>
+ <img style="border-radius: 0.3125em;
+ box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
+ src="https://github.com/user-attachments/assets/a6f0fd92-2d58-4f58-bd39-0227accc4fd0" width = "41%" alt=""/>
+</center>
 
-![image](https://github.com/user-attachments/assets/530a173b-7543-4f0c-af9c-b7567a395d66)
+<center>
+ <img style="border-radius: 0.3125em;
+ box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
+ src="https://github.com/user-attachments/assets/55e5b88d-0911-47f5-bd50-9b01030f713d" width = "41%" alt=""/>
+ <img style="border-radius: 0.3125em;
+ box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
+ src="https://github.com/user-attachments/assets/fb4e51ce-8d7d-4526-9033-7facb796bca1" width = "41%" alt=""/>
+</center>
 
-![image](https://github.com/user-attachments/assets/a6f0fd92-2d58-4f58-bd39-0227accc4fd0)
 
-![image](https://github.com/user-attachments/assets/55e5b88d-0911-47f5-bd50-9b01030f713d)
-
-![image](https://github.com/user-attachments/assets/fb4e51ce-8d7d-4526-9033-7facb796bca1)
 
 <center>
  <img style="border-radius: 0.3125em;
