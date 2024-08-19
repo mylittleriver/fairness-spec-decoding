@@ -96,7 +96,7 @@ src="https://github.com/user-attachments/assets/63a91582-02a5-4c7d-bf12-6d2d3370
  src="https://github.com/user-attachments/assets/fb4e51ce-8d7d-4526-9033-7facb796bca1" width = "41%" alt=""/>
 </center>
 
-
+The pair with greatest disparity in terms of acceptance rate is still queer/queer_gender_pronoun, with acceptance rate 0.841 for queer, 0.912 for queer_gender_pronoun.
 
 <center>
  <img style="border-radius: 0.3125em;
