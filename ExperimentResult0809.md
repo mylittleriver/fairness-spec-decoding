@@ -12,6 +12,12 @@
  src="https://github.com/user-attachments/assets/1817c75d-b1d6-45d6-a76a-d189e3765cef" width = "43%" alt=""/>
 </center>
 
+KDE of distribution of p_i and q_i for accepted tokens of all groups:
+![image](https://github.com/user-attachments/assets/66b51cf6-be01-4e92-aa14-63470340fa7b)
+
+KDE of distribution of p_i and q_i for rejected tokens of all groups:
+![image](https://github.com/user-attachments/assets/45b04987-b66e-4381-9450-deee6ee234c6)
+
 
 ## Goal: to find tokens that smaller model has higher confidence but rejected, and tokens that smaller model has higher confidence and accepted; to seperate into specific groups and find disparity among groups
 
