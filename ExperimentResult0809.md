@@ -18,6 +18,8 @@ KDE of distribution of p_i and q_i for accepted tokens of all groups:
 KDE of distribution of p_i and q_i for rejected tokens of all groups:
 ![image](https://github.com/user-attachments/assets/45b04987-b66e-4381-9450-deee6ee234c6)
 
+what else processing can be done to p_i and q_i for each token?
+![image](https://github.com/user-attachments/assets/4e7231f6-144e-45e4-bccd-62e3118bb8e6)
 
 ## Goal: to find tokens that smaller model has higher confidence but rejected, and tokens that smaller model has higher confidence and accepted; to seperate into specific groups and find disparity among groups
 
