@@ -99,7 +99,17 @@ src="https://github.com/user-attachments/assets/63a91582-02a5-4c7d-bf12-6d2d3370
 
 
 ### Distribution of likelihood difference
+
 The pair with greatest disparity in terms of acceptance rate is still queer/queer_gender_pronoun, with acceptance rate 0.841 for queer, 0.912 for queer_gender_pronoun.
+
+<center>
+ <img style="border-radius: 0.3125em;
+ box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
+ src="https://github.com/user-attachments/assets/dce05283-daee-402e-bfed-6eb884e4f35f" width = "44%" alt=""/>
+ <img style="border-radius: 0.3125em;
+ box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
+ src="https://github.com/user-attachments/assets/cfbf333f-9b14-4018-960e-e12582c08fea" width = "38%" alt=""/>
+</center>
 
 <center>
  <img style="border-radius: 0.3125em;
@@ -128,14 +138,7 @@ The pair with greatest disparity in terms of acceptance rate is still queer/quee
  src="https://github.com/user-attachments/assets/93f4d7d8-406b-444d-836a-0ec8ab13702a" width = "38%" alt=""/>
 </center>
 
-<center>
- <img style="border-radius: 0.3125em;
- box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
- src="https://github.com/user-attachments/assets/dce05283-daee-402e-bfed-6eb884e4f35f" width = "44%" alt=""/>
- <img style="border-radius: 0.3125em;
- box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
- src="https://github.com/user-attachments/assets/cfbf333f-9b14-4018-960e-e12582c08fea" width = "38%" alt=""/>
-</center>
+
 
 <center>
  <img style="border-radius: 0.3125em;
