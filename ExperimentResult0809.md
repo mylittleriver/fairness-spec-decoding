@@ -69,6 +69,7 @@ src="https://github.com/user-attachments/assets/63a91582-02a5-4c7d-bf12-6d2d3370
 
 ## Change num_assistant_tokens_schedule from heuristic to constant and change num_assistant_tokens to see what will change
 
+### Distribution of p_i and q_i for accepted, rejected and both tokens of all groups
 <center>
  <img style="border-radius: 0.3125em;
  box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
@@ -96,6 +97,8 @@ src="https://github.com/user-attachments/assets/63a91582-02a5-4c7d-bf12-6d2d3370
  src="https://github.com/user-attachments/assets/fb4e51ce-8d7d-4526-9033-7facb796bca1" width = "44%" alt=""/>
 </center>
 
+
+### Distribution of likelihood difference
 The pair with greatest disparity in terms of acceptance rate is still queer/queer_gender_pronoun, with acceptance rate 0.841 for queer, 0.912 for queer_gender_pronoun.
 
 <center>
