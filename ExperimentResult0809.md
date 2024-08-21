@@ -110,7 +110,7 @@ src="https://github.com/user-attachments/assets/63a91582-02a5-4c7d-bf12-6d2d3370
 
 ### Distribution of likelihood difference
 
-The pair with greatest disparity in terms of acceptance rate becomes still nonqueer/queer_gender_xenogender, with acceptance rate 0.904 for queer, 0.811 for queer_gender_pronoun.
+The pair with greatest disparity in terms of acceptance rate becomes still queer_gender_pronoun/queer_gender_xenogender, with acceptance rate 0.912 for queer, 0.811 for queer_gender_pronoun.
 
 <center>
  <img style="border-radius: 0.3125em;
