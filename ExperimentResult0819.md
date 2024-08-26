@@ -8,7 +8,7 @@
 <!-- <img width="781" alt="0243624e31b840a03bbaeb66240fbfa" src="https://github.com/user-attachments/assets/c39116a1-ad76-4f91-ae14-3c823de9b6c2"> -->
 <!-- <img width="746" alt="964d6465c8b6536225a101aef06be7e" src="https://github.com/user-attachments/assets/31c87b85-f695-4176-a6b9-905f0bc31ad4"> -->
 
- 
+## Q1: Are the models in general more aligned after this fine-tuning, a.k.a. do we achieve higher generation speedup, which depends on higher acceptance rates?
 ![image](https://github.com/user-attachments/assets/f82bfaea-6413-4641-a7d8-15d2461e3013)
 ![image](https://github.com/user-attachments/assets/af475663-d00e-4fa0-b91b-061add9438d5)
 ![image](https://github.com/user-attachments/assets/0b77cd40-09d0-4120-b58a-700b14f98836)
