@@ -25,6 +25,6 @@ For ag news, IMDB, cnn dailymail, the acceptance rate has increased after finetu
 ![image](https://github.com/user-attachments/assets/f3af93c9-e1a3-451f-b25b-b5efc39c723c)
 ![image](https://github.com/user-attachments/assets/11ea0ef6-cb8d-4a21-86e3-2ef188a1c093)
 
-Q2: In case the answer to Q1 is yes, do we reach more similar speedup for each category, or does a larger speedup only occur for categories with more samples, leading to a better overall performance that enhances unfair behaviors?
+## Q2: In case the answer to Q1 is yes, do we reach more similar speedup for each category, or does a larger speedup only occur for categories with more samples, leading to a better overall performance that enhances unfair behaviors?
 
 ![image](https://github.com/user-attachments/assets/f82bfaea-6413-4641-a7d8-15d2461e3013)
