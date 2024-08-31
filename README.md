@@ -1,3 +1,5 @@
+- evaluate_honest_spec_new.ipynb generates the completions using speculative decoding and plots (1) the token accpetance rate (#accepted tokens/#accepted tokens+#rejected tokens) across different groups, (2) the distribution of likelihood difference across different groups, (3) the distribution of p_i and q_i for accepted/rejected tokens for all groups.
+  
 - evaluate_honest_spec.ipynb generates the completions using speculative decoding and plots the token accpetance ratio graph (n_matches/max_new_tokens). 
 
 - likelihood_difference.ipynb plots the distribution of the likelihood difference (p_i - q_i) between the larger and smaller model before and after finetuning.
