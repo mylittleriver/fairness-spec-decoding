@@ -10,11 +10,11 @@ The experiment is conducted using main model: gpt2, assistant model: distilgpt2
 	
 	without finetuning:
 	
-	![Untitled](Experiment%20Result%20a0d435bfdc63401282a3a7c9939eaa46/Untitled%205.png)
+	![Untitled](./Experiment%20Result%20a0d435bfdc63401282a3a7c9939eaa46/Untitled%205.png)
 	
 	finetuned on ag_news with 1 epoch:
 	
-	![Untitled](Experiment%20Result%20a0d435bfdc63401282a3a7c9939eaa46/Untitled%206.png)
+	![Untitled](./Experiment%20Result%20a0d435bfdc63401282a3a7c9939eaa46/Untitled%206.png)
 
 	finetuned on ag_news with 3 epochs:
 
